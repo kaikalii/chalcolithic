@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "description": "Lowering of Minecraft's tech level",
+    "pack_format": 94,
+    "supported_formats": [48, 94],
+    "max_format": 94,
+    "min_format": 48
+  }
+}

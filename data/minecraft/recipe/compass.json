@@ -8,12 +8,13 @@
       "minecraft:iron_ingot"
     ],
     "R": "minecraft:redstone",
-    "S": "minecraft:stick"
+    "S": "minecraft:stick",
+    "N": "minecraft:string"
   },
   "pattern": [
     "GRG",
     "#S#",
-    " # "
+    " N "
   ],
   "result": {
     "count": 1,

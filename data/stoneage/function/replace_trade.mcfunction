@@ -1,0 +1,1 @@
+$execute if data entity @s Offers.Recipes[{$(kind):{id:"minecraft:$(from)"}}] run data modify entity @s Offers.Recipes[{$(kind):{id:"minecraft:$(from)"}}].$(kind) merge value {id:"minecraft:$(to)"}

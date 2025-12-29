@@ -16,7 +16,7 @@ The recipe book will help you with new recipes!
 
 ## Removed Recipes
 
-While these recipes are removed, most of the blocks and items can still be found via natural generation and loot
+While these recipes are removed, most of the blocks and items can still be found via natural generation and loot. The items are also removed from villager and wandering trader trades.
 
 - Copper and iron smelting and blasting
 - Gold smelting (but not blasting)

@@ -15,7 +15,6 @@ RecipePath ← $"data/minecraft/recipe/_.json"
     "boots"}
    {"copper"
     "iron"
-    "golden"
     "diamond"}
    ♭⊞⍚$"_\__")
 
@@ -50,7 +49,6 @@ RecipePath ← $"data/minecraft/recipe/_.json"
    "powered_rail"
    "piston"
    "hopper"
-   "gold_block"
    "light_weighted_pressure_plate"
    "heavy_weighted_pressure_plate"
    "crafter"
@@ -82,3 +80,34 @@ RecipePath ← $"data/minecraft/recipe/_.json"
     $$   "group": "flint\_and\_steel"
     $$ }
   ))
+
+# Remove metals from armor trims
+{"sentry"
+ "vex"
+ "wild"
+ "coast"
+ "dune"
+ "wayfinder"
+ "raiser"
+ "shaper"
+ "host"
+ "ward"
+ "silence"
+ "tide"
+ "snout"
+ "rib"
+ "eye"
+ "spire"
+ "flow"
+ "bolt"}
+⍚(&fwa ⊃(
+    $"data/minecraft/recipe/_\_armor\_trim\_smithing\_template\_smithing\_trim.json"
+  | ˙$$ {
+     $$   "type": "minecraft:smithing\_trim",
+     $$   "addition": "#stoneage:trim\_materials",
+     $$   "base": "#minecraft:trimmable\_armor",
+     $$   "pattern": "minecraft:_",
+     $$   "template": "minecraft:_\_armor\_trim\_smithing\_template"
+     $$ }
+  )
+)

@@ -2,10 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "W": "#minecraft:wooden_tool_materials"
+    "W": "#minecraft:wooden_tool_materials",
+    "L": "minecraft:raw_iron"
   },
   "pattern": [
-    "WWW",
+    "WLW",
     "WWW",
     " W "
   ],
@@ -13,7 +14,7 @@
     "count": 1,
     "id": "minecraft:shield",
     "components": {
-      "damage": 250
+      "damage": 110
     }
   },
   "group": "shield"

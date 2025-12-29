@@ -54,7 +54,6 @@ RecipePath ← $"data/minecraft/recipe/_.json"
   # Others
   {"bucket"
    "crossbow"
-   "shield"
    "lightning_rod"
    "anvil"
    "cauldron"

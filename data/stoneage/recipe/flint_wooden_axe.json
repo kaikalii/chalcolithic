@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "#": "minecraft:stick",
-    "X": "#minecraft:planks",
+    "X": "#minecraft:wooden_tool_materials",
     "^": "minecraft:flint"
   },
   "pattern": [

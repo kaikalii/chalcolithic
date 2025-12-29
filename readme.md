@@ -25,7 +25,6 @@ While these recipes are removed, most of the blocks and items can still be found
 - Copper decorative blocks (but not waxing)
 - Bucket
 - Crossbow
-- Shield
 - Lightning_Rod
 - Anvil
 - Cauldron
@@ -52,6 +51,8 @@ While these recipes are removed, most of the blocks and items can still be found
 - Some recipes that previously required an ingot now require either a tie item or a sticky item:
   - Brush
   - Saddle
+- Flint and Steel can now use raw iron instead of an ingot, but it requires kindling in the form of sticks. The more sticks added to the recipe, the higher the durability.
+- Shields can now be crafted with a plank, log, or raw iron instead of an iron ingot, with corresponding reductions in durability.
 - Completely overhauled the recipes for:
   - Shears
   - Spyglass

@@ -2,17 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "#": "minecraft:flint"
+    "#": "minecraft:flint",
+    "S": "minecraft:string",
+    "T": "minecraft:stick"
   },
   "pattern": [
-    " #",
-    "# "
+    " # ",
+    "T #",
+    "ST "
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:shears",
-    "components": {
-      "damage": 138
-    }
+    "id": "minecraft:shears"
   }
 }

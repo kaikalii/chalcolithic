@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#minecraft:planks",
+    "C": "#minecraft:stone_crafting_materials",
+    "S": "minecraft:shears",
+    "B": "minecraft:brush",
+    "T": "minecraft:stick"
+  },
+  "pattern": [
+    "STB",
+    "CCC",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:smithing_table"
+  }
+}

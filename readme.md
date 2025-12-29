@@ -27,7 +27,6 @@ While these recipes are removed, most of the blocks and items can still be found
 - Crossbow
 - Lightning_Rod
 - Anvil
-- Cauldron
 - Blast Furnace
 - Minecart
 - Rail
@@ -63,6 +62,7 @@ While these recipes are removed, most of the blocks and items can still be found
   - Lodestone
   - Map
   - Smithing Table
+  - Cauldron
 
 ## Added Recipes
 

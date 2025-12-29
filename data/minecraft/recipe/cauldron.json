@@ -1,1 +1,17 @@
-{ "type": "minecraft:crafting_decorated_pot" }
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#minecraft:stone_crafting_materials",
+    "W": "minecraft:honeycomb"
+  },
+  "pattern": [
+    "#W#",
+    "#W#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:cauldron"
+  }
+}

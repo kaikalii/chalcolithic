@@ -3,6 +3,7 @@ RecipePath ← $"data/minecraft/recipe/_.json"
 
 # Remove recipes
 /◇⊂{
+  # Tools and armor
   ({"pickaxe"
     "axe"
     "shovel"
@@ -18,17 +19,28 @@ RecipePath ← $"data/minecraft/recipe/_.json"
     "diamond"}
    ♭⊞⍚$"_\__")
 
+  # From copper or iron ingots
   ({"block" "bars" "chain" "door" "trapdoor"}
    {"copper" "iron"}
    ♭⊞⍚$"_\__")
 
-  ({"" "weathered" "oxidized" ""}
-   /◇⊂≡⊃{$"\_cut\_copper"|$"\_cut\_copper\_slab"|$"\_cut\_copper\_stairs"})
+  # Copper blocks
+  ({"" "weathered_" "exposed_" "oxidized_"}
+   {"" "waxed_"}
+   /⊂⊞⍚⊂
+   /⊂≡⊃{
+      $"_cut\_copper"
+    | $"_cut\_copper\_slab"
+    | $"_cut\_copper\_stairs"
+    | $"_copper\_grate"
+    | $"_chiseled\_copper"})
 
+  # Others
   {"bucket"
    "crossbow"
    "shield"
    "lightning_rod"
+   "copper_lantern"
    "anvil"
    "blast_furnace"
    "minecart"
@@ -43,7 +55,6 @@ RecipePath ← $"data/minecraft/recipe/_.json"
    "heavy_weighted_pressure_plate"
   }
 }
-
 ⍚RecipePath
 ≡⌟&fwa ⊙$ { "type": "minecraft:crafting_decorated_pot" }
 

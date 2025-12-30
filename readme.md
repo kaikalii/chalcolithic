@@ -69,3 +69,4 @@ While these recipes are removed, most of the blocks and items can still be found
 - Flint-tipped variants of wooden and stone swords, axes, and spears, which have Sharpness I
 - String from wool or carpets. Has diminishing returns.
 - Raw metal crafting recipes for copper, iron, and gold spears, which have lower durability
+- Water bottles can be freely converted to and from splash water bottles. These can be used to extinguish fires but cannot be used in brewing recipes for other splash potions.

@@ -1,8 +1,5 @@
-&fmd "data/minecraft/recipe"
-RecipePath ← $"data/minecraft/recipe/_.json"
-
 # Remove recipes
-/◇⊂{
+⍆/◇⊂{
   # Tools and armor
   ({"pickaxe"
     "axe"
@@ -69,8 +66,27 @@ RecipePath ← $"data/minecraft/recipe/_.json"
    "crafter"
   }
 }
-⍚RecipePath
-≡⌟&fwa ⊙$ { "type": "minecraft:crafting_decorated_pot" }
+/◇⊂₃",\n      "⍚$$ {"namespace": "minecraft", "path": "recipe/_.json"}
+
+$$ {
+$$   "pack": {
+$$     "description": "Lowering of Minecraft's tech level",
+$$     "pack\_format": 94,
+$$     "supported\_formats": [48, 94],
+$$     "max\_format": 94,
+$$     "min\_format": 48
+$$   },
+$$   "filter": {
+$$     "block": [
+$$       _
+$$     ]
+$$   }
+$$ }
+&fwa "pack.mcmeta"
+
+# Add new recipes
+&fmd "data/minecraft/recipe"
+RecipePath ← $"data/minecraft/recipe/_.json"
 
 # Multiple flint and steel recipes
 ⇌⁅×64/7 ⇡7

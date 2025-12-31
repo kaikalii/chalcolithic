@@ -2,19 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "W": "#minecraft:wooden_tool_materials"
+    "W": "#minecraft:wooden_tool_materials",
+    "I": "minecraft:copper_ingot"
   },
   "pattern": [
-    "WWW",
+    "WIW",
     "WWW",
     " W "
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:shield",
-    "components": {
-      "damage": 250
-    }
-  },
-  "group": "shield"
+    "id": "minecraft:shield"
+  }
 }

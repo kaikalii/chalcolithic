@@ -52,11 +52,10 @@ While these recipes are removed, most of the blocks and items can still be found
   - Brush
   - Saddle
 - Flint and Steel can now use raw iron instead of an ingot, but it requires kindling in the form of sticks. The more sticks added to the recipe, the higher the durability.
-- Shields can now be crafted with a plank, log, or raw iron instead of an iron ingot, with corresponding reductions in durability.
+- Shields can now be crafted with copper ingot instead of an iron.
 - Completely overhauled the recipes for:
   - Blast Furnace
   - Shears
-  - Spyglass
   - Clock
   - Compass
   - Tripwire Hook
@@ -70,6 +69,5 @@ While these recipes are removed, most of the blocks and items can still be found
 
 - Flint-tipped variants of wooden and stone swords, axes, and spears, which have Sharpness I
 - String from wool or carpets. Has diminishing returns.
-- Raw metal crafting recipes for copper, iron, and golden spears, which have lower durability
 - Water bottles can be freely crafted to and from splash water bottles. These can be used to extinguish fires but cannot be used in brewing recipes for other splash potions.
 - Flower pots can be freely crafted to empty milk pots, which can be used to milk cows and goats in lieu of buckets.

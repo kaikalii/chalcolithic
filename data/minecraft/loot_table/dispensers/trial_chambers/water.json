@@ -11,6 +11,12 @@
               "add": false,
               "count": 1.0,
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "custom_name": "Splash Bottle"
+              }
             }
           ],
           "name": "minecraft:splash_potion"

@@ -1,19 +1,23 @@
 {
     "values": [
         "minecraft:leather_helmet",
+        "minecraft:copper_helmet",
         "minecraft:chainmail_helmet",
         "minecraft:golden_helmet",
         "minecraft:diamond_helmet",
         "minecraft:turtle_helmet",
         "minecraft:leather_chestplate",
+        "minecraft:copper_chestplate",
         "minecraft:chainmail_chestplate",
         "minecraft:golden_chestplate",
         "minecraft:diamond_chestplate",
         "minecraft:leather_leggings",
+        "minecraft:copper_leggings",
         "minecraft:chainmail_leggings",
         "minecraft:golden_leggings",
         "minecraft:diamond_leggings",
         "minecraft:leather_boots",
+        "minecraft:copper_boots",
         "minecraft:chainmail_boots",
         "minecraft:golden_boots",
         "minecraft:diamond_boots"

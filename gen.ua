@@ -10,26 +10,11 @@
     "chestplate"
     "leggings"
     "boots"}
-   {"copper"
-    "iron"
-    "diamond"}
+   {"iron" "diamond"}
    ♭⊞⍚$"_\__")
 
-  # From copper or iron ingots
-  ({"block" "bars" "chain" "door" "trapdoor"}
-   {"copper" "iron"}
-   ♭⊞⍚$"_\__")
-
-  # Copper blocks
-  ({"" "weathered_" "exposed_" "oxidized_"}
-   {"" "waxed_"}
-   /⊂⊞⍚⊂
-   ⍚⊃($"_cut\_copper"
-    | $"_cut\_copper\_slab"
-    | $"_cut\_copper\_stairs"
-    | $"_copper\_grate"
-    | $"_chiseled\_copper"
-    | $"_copper\_bulb"))
+  # From iron ingots
+  ⍚$"iron\__"{"block" "bars" "chain" "door" "trapdoor"}
 
   # Ingot smelting
   (Smelting ← ⊃(
@@ -43,18 +28,15 @@
     | ˙$"_\_ingot\_from\_blasting\__\_ore"
     | ˙$"_\_ingot\_from\_blasting\_deepslate\__\_ore"
     )
-   {⊃Smelting Blasting "copper"
-    ⊃Smelting Blasting "iron"
+   {⊃Smelting Blasting "iron"
+    Smelting "copper"
     ⊃Smelting˙$"_\_ingot\_from\_smelting\_nether\__\_ore" "gold"}
   )
 
   # Others
   {"bucket"
    "crossbow"
-   "lightning_rod"
    "anvil"
-   "cauldron"
-   "blast_furnace"
    "minecart"
    "rail"
    "activator_rail"
@@ -63,8 +45,7 @@
    "piston"
    "hopper"
    "heavy_weighted_pressure_plate"
-   "crafter"
-  }
+   "crafter"}
 }
 /◇⊂₃",\n      "⍚$$ {"namespace": "minecraft", "path": "recipe/_.json"}
 

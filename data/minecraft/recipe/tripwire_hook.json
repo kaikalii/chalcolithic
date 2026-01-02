@@ -3,7 +3,7 @@
   "category": "redstone",
   "key": {
     "#": "#minecraft:wooden_tool_materials",
-    "C": "#chalcolithic:affix",
+    "C": "#chalc:affix",
     "S": "minecraft:stick"
   },
   "pattern": [

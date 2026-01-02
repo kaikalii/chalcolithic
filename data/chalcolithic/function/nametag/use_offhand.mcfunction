@@ -1,1 +1,0 @@
-function chalcolithic:nametag/use_hand {tag_hand_path:equipment.offhand,equipment_hand_path:SelectedItem,tag_hand:offhand,equipment_hand:mainhand}

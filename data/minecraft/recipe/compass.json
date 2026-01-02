@@ -9,7 +9,7 @@
     ],
     "R": "minecraft:redstone",
     "S": "minecraft:stick",
-    "N": "#chalcolithic:affix"
+    "N": "#chalc:affix"
   },
   "pattern": [
     "GRG",

@@ -131,7 +131,7 @@ RecipePath ← $"data/minecraft/recipe/_.json"
     $"data/minecraft/recipe/_\_armor\_trim\_smithing\_template\_smithing\_trim.json"
   | ˙$$ {
      $$   "type": "minecraft:smithing\_trim",
-     $$   "addition": "#chalcolithic:trim\_materials",
+     $$   "addition": "#chalc:trim\_materials",
      $$   "base": "#minecraft:trimmable\_armor",
      $$   "pattern": "minecraft:_",
      $$   "template": "minecraft:_\_armor\_trim\_smithing\_template"
@@ -141,7 +141,7 @@ RecipePath ← $"data/minecraft/recipe/_.json"
 
 # Show darkness sphere
 ▽<+0.5⟜(⊸(⍜˙×/+°⍉) ♭₂⧋-⟜(⇡ ↯3 +1×2)) 6
-/◇⊂₃@\n⍚°[°$"execute positioned ~_ ~_ ~_ run function chalcolithic:darksight/show\_darkness\_at"]
+/◇⊂₃@\n⍚°[°$"execute positioned ~_ ~_ ~_ run function chalc:darksight/show\_darkness\_at"]
 $$ # Generated file
 $$ _
-&fwa "data/chalcolithic/function/darksight/show_darkness.mcfunction"
+&fwa "data/chalc/function/darksight/show_darkness.mcfunction"

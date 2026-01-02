@@ -5,7 +5,7 @@
     "#": "minecraft:stick",
     "$": "minecraft:tripwire_hook",
     "&": "minecraft:copper_ingot",
-    "~": "#chalcolithic:tie"
+    "~": "#chalc:tie"
   },
   "pattern": [
     "#&#",

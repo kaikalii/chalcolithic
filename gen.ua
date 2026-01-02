@@ -60,6 +60,8 @@
    "crafter"}
 }
 /◇⊂₃",\n      "⍚$$ {"namespace": "minecraft", "path": "recipe/_.json"}
+{"story/laval_bucket" "story/shiny_gear"}
+/◇⊂₃",\n      "⍚$$ {"namespace": "minecraft", "path": "advancement/_.json"}
 
 $$ {
 $$   "pack": {
@@ -71,6 +73,7 @@ $$     "min\_format": 48
 $$   },
 $$   "filter": {
 $$     "block": [
+$$       _,
 $$       _
 $$     ]
 $$   }

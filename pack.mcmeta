@@ -8,6 +8,8 @@
   },
   "filter": {
     "block": [
+      {"namespace": "minecraft", "path": "advancement/story/laval_bucket.json"},
+      {"namespace": "minecraft", "path": "advancement/story/shiny_gear.json"},
       {"namespace": "minecraft", "path": "recipe/activator_rail.json"},
       {"namespace": "minecraft", "path": "recipe/anvil.json"},
       {"namespace": "minecraft", "path": "recipe/bucket.json"},

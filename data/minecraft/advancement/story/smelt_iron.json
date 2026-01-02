@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:story/blast_furnace",
+  "criteria": {
+    "copper": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "Smelt copper nuggets and craft an ingot",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:copper_ingot"
+    },
+    "title": {
+      "translate": "advancements.story.smelt_iron.title"
+    }
+  },
+  "requirements": [
+    [
+      "copper"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

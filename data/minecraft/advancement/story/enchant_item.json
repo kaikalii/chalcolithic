@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "manual": {
+      "trigger": "impossible"
+    }
+  },
+  "display": {
+    "description": "Enchant an item with an enchanted book",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "advancements.story.enchant_item.title"
+    }
+  },
+  "requirements": [
+    [
+      "manual"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

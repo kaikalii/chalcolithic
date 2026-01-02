@@ -1,0 +1,29 @@
+{
+    "parent": "minecraft:story/upgrade_tools",
+    "criteria": {
+        "blast_furnace": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:blast_furnace"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "description": "Construct a blast furnace",
+        "icon": {
+            "count": 1,
+            "id": "minecraft:blast_furnace"
+        },
+        "title": "Blasting Off"
+    },
+    "requirements": [
+        [
+            "blast_furnace"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

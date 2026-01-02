@@ -145,3 +145,17 @@ RecipePath ← $"data/minecraft/recipe/_.json"
 $$ # Generated file
 $$ _
 &fwa "data/chalc/function/darksight/show_darkness.mcfunction"
+
+# not_enchantable tag
+{"pickaxe" "axe" "shovel" "hoe" "sword" "spear"}
+{"iron" "diamond" "netherite"}
+{"helmet" "chestplate" "leggings" "boots"}
+{"chainmail" "iron" "diamond" "netherite"}
+⊂∩(♭⊞⍚$"\"_\__\"")
+/◇⊂₃",\n        "
+$$ {
+$$     "values": [
+$$         _
+$$     ]
+$$ }
+&fwa "data/chalc/tags/item/not_enchantable.json"

@@ -1,5 +1,11 @@
+# Equipment must be enchantable
 $execute unless items entity @s $(equipment_hand) #enchantable/durability run return run function chalc:do_nothing
+# Equipment must not be blacklisted
 $execute if items entity @s $(equipment_hand) #chalc:not_enchantable run return run function chalc:do_nothing
+# Cannot use mending on elytra
+execute store success score #temp chalc run data get storage chalc:macro enchant.enchantments.minecraft:mending
+$execute if score #temp chalc = #1 chalc if items entity @s $(equipment_hand) elytra run return run function chalc:do_nothing
+
 $item modify entity @s $(equipment_hand) {function:"set_enchantments",enchantments:$(enchantments)}
 $item modify entity @s $(book_hand) {function:"set_count",count:0}
 playsound block.enchantment_table.use block

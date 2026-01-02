@@ -78,6 +78,7 @@ While these recipes are removed, most of the blocks and items can still be found
 
 ## Other Changes
 
+- Copper pickaxes can now mine all blocks that iron pickaxes can
 - Enchanted books can now be applied to equipment by holding the book in one hand and the item in the other and using the book. Items with right-click functionality *must* be held in the offhand.
 - Iron golems are now *clay* golems. They are made in the normal shape, but with clay blocks instead of iron blocks. The clay must be surrounded by mud. Clay golems drop clay balls instead of iron ingots.
 - Remove buckets from loot tables

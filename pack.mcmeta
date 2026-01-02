@@ -16,7 +16,6 @@
       {"namespace": "minecraft", "path": "recipe/copper_ingot_from_smelting_raw_copper.json"},
       {"namespace": "minecraft", "path": "recipe/copper_nugget_from_smelting.json"},
       {"namespace": "minecraft", "path": "recipe/crafter.json"},
-      {"namespace": "minecraft", "path": "recipe/crossbow.json"},
       {"namespace": "minecraft", "path": "recipe/detector_rail.json"},
       {"namespace": "minecraft", "path": "recipe/diamond_axe.json"},
       {"namespace": "minecraft", "path": "recipe/diamond_boots.json"},

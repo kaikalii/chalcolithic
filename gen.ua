@@ -48,7 +48,6 @@
 
   # Others
   {"bucket"
-   "crossbow"
    "anvil"
    "minecart"
    "rail"

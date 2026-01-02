@@ -24,7 +24,6 @@ While these recipes are removed, most of the blocks and items can still be found
 - Iron and netherite armor trimming
 - Smelting recipes for ore blocks
 - Bucket
-- Crossbow
 - Anvil
 - Minecart
 - Rail
@@ -52,7 +51,7 @@ While these recipes are removed, most of the blocks and items can still be found
   - Brush
   - Saddle
 - Flint and Steel can now use raw iron instead of an ingot, but it requires kindling in the form of sticks. The more sticks added to the recipe, the higher the durability.
-- Shields can now be crafted with copper ingot instead of an iron.
+- Shields and crossbows can now be crafted with a copper ingot instead of iron.
 - Completely overhauled the recipes for:
   - Blast Furnace
   - Shears
@@ -77,3 +76,4 @@ While these recipes are removed, most of the blocks and items can still be found
 - Enchanted books can now be applied to equipment by holding the book in one hand and the item in the other and using the book. Items with right-click functionality *must* be held in the offhand.
 - Iron golems are now *clay* golems. They are made in the normal shape, but with clay blocks instead of iron blocks. The clay must be surrounded by mud. Clay golems drop clay balls instead of iron ingots.
 - Remove buckets from loot tables
+- Village structures that generated with iron bars now generate with copper bars

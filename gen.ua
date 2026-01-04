@@ -57,7 +57,8 @@
    "piston"
    "hopper"
    "heavy_weighted_pressure_plate"
-   "crafter"}
+   "crafter"
+   "enchanting_table"}
 }
 /◇⊂₃",\n      "⍚$$ {"namespace": "minecraft", "path": "recipe/_.json"}
 {"story/laval_bucket" "story/shiny_gear"}

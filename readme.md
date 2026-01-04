@@ -6,10 +6,13 @@ High-temperature metallurgy is a lost art, and neither the player nor villagers 
 
 # Quick Overview of Changes
 
-- No crafting of iron or diamond weapons, tools, or armor - copper is king
-- Many smelting recipes require a blast furnace
+- No crafting of diamond weapons, tools, or armor
+- Iron equipment can be crafted, but iron ingots cannot be smelted - only found
+- Many smelting recipes require a **blast furnace**
+- **Overhauled enchanting system** to be based more exploration and less on random chance
 - Altered recipes for many things
-- No crafting of minecarts, pistons, or hoppers
+- Many recipes have been removed, but items can still be found in the world
+- Crafting changes mean that **copper is king**
 
 The recipe book will help you with new recipes!
 
@@ -35,6 +38,7 @@ While these recipes are removed, most of the blocks and items can still be found
 - Hopper
 - Heavy Weighted Pressure Plate
 - Crafter
+- Enchanting Table
 
 ## Modified Recipes
 
@@ -91,6 +95,16 @@ While these recipes are removed, most of the blocks and items can still be found
 - Remove buckets from loot tables
 
 ### Enchanting
+- Rather than at an enchanting table, all enchanting is now done through enchanted books
+- Enchantable books can be crafted with a book and various precious materials
+- Enchantable books can be imbued with enchantments by using them in different places
+  - Different biomes give different enchantments
+  - Some biomes can give multiple enchantments, some only one
+  - Enchanting a book costs levels equal to the sum of the resulting enchantment levels
+  - Higher total levels allow for stronger enchantments
+  - Enchanting a book absorbs magic from the environment, and additional books cannot be enchanted nearby until a period of time has passed
+  - Particles in the area show where a book was enchanted and indicate the cooldown
+  - If a book was too recently enchanted nearby, particles will point to where that was
 - Enchanted books can be applied to equipment by holding the book in one hand and the equipment in the other and using the book. Armor must be held in the offhand to avoid equipping it instead.
   - This does not work on iron, chainmail, diamond, or netherite gear.
   - Mending cannot be applied to elytra

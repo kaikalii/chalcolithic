@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ light run setblock ~ ~ ~ light[level=7] destroy

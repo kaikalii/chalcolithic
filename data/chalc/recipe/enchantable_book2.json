@@ -23,8 +23,7 @@
             },
             "enchantment_glint_override": true,
             "lore": [
-                "Use to imbue with enchantments",
-                "from the environment"
+                "Accepts more powerful enchantments"
             ]
         }
     }

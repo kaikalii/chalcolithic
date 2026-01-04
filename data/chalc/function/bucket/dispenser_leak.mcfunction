@@ -1,0 +1,6 @@
+$execute if block ~ ~ ~ dispenser[facing=north] align xyz positioned ~0.5 ~0.5 ~-0.5 if block ~ ~ ~ #air run return run $(f)
+$execute if block ~ ~ ~ dispenser[facing=south] align xyz positioned ~0.5 ~0.5 ~1.5 if block ~ ~ ~ #air run return run $(f)
+$execute if block ~ ~ ~ dispenser[facing=west] align xyz positioned ~-0.5 ~0.5 ~0.5 if block ~ ~ ~ #air run return run $(f)
+$execute if block ~ ~ ~ dispenser[facing=east] align xyz positioned ~1.5 ~0.5 ~0.5 if block ~ ~ ~ #air run return run $(f)
+$execute if block ~ ~ ~ dispenser[facing=up] align xyz positioned ~0.5 ~1.5 ~0.5 if block ~ ~ ~ #air run return run $(f)
+$execute if block ~ ~ ~ dispenser[facing=down] align xyz positioned ~0.5 ~-0.5 ~0.5 if block ~ ~ ~ #air run return run $(f)

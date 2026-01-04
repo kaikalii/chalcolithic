@@ -1,1 +1,1 @@
-function chalc:hitscan {f:"if block ~ ~ ~ water[level=0] run return run function chalc:bucket/mark {fluid:Water,time:15}"}
+function chalc:hitscan {f:"if block ~ ~ ~ water[level=0] run return run function chalc:bucket/spawn_water"}

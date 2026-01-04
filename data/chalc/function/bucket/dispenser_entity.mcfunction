@@ -1,0 +1,1 @@
+$execute if data block ~ ~ ~ {Items:[{id:"minecraft:$(entity)_bucket"}]} run function chalc:bucket/dispenser_leak_entity {entity:$(entity)}

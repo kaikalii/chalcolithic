@@ -9,7 +9,7 @@ function chalc:imbue/biome1 {enchant:aqua_affinity, biome:"#is_river"}
 # TODO: BoA
 function chalc:imbue/biome4 {enchant:blast_protection, biome:"#is_badlands"}
 function chalc:imbue/biome4 {enchant:breach, biome:"dark_forest"}
-# TODO: Channeling
+function chalc:imbue/add_if1 {enchant:channeling, f:"if predicate chalc:channeling"}
 # TODO: Density
 function chalc:imbue/biome3 {enchant:depth_strider, biome:"#is_deep_ocean"}
 function chalc:imbue/add_if5 {enchant:efficiency, f:"if dimension overworld if score @s chalc.y <= #deepslate chalc unless biome ~ ~ ~ #chalc:underground"}
@@ -34,7 +34,7 @@ function chalc:imbue/biome4 {enchant:projectile_protection, biome:"#is_forest"}
 function chalc:imbue/biome4 {enchant:protection, biome:"#chalc:protection"}
 function chalc:imbue/biome3 {enchant:quick_charge, biome:"the_end"}
 function chalc:imbue/biome3 {enchant:respiration, biome:"#is_ocean"}
-# TODO: Riptide
+function chalc:imbue/add_if1 {enchant:riptide, f:"if predicate chalc:riptide"}
 function chalc:imbue/biome5 {enchant:sharpness, biome:"#chalc:sharpness"}
 function chalc:imbue/biome1 {enchant:silk_touch, biome:"warped_forest"}
 function chalc:imbue/biome5 {enchant:smite, biome:"#chalc:smite"}

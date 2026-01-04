@@ -1,0 +1,39 @@
+[
+    {
+        "condition": "weather_check",
+        "raining": true
+    },
+    {
+        "condition": "all_of",
+        "terms": [
+            {
+                "condition": "location_check",
+                "predicate": {
+                    "biomes": "#chalc:water"
+                }
+            },
+            {
+                "condition": "any_of",
+                "terms": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "can_see_sky": true
+                        }
+                    },
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "water",
+                                    "water_cauldron"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

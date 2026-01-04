@@ -1,0 +1,12 @@
+[
+    {
+        "condition": "weather_check",
+        "thundering": true
+    },
+    {
+        "condition": "location_check",
+        "predicate": {
+            "can_see_sky": true
+        }
+    }
+]

@@ -1,15 +1,15 @@
 | Enchantment           | Book | Condition                                                                                    |
 | --------------------- | ---- | -------------------------------------------------------------------------------------------- |
 | Aqua Affinity         |      | Biome #is_river                                                                              |
-| Bane of Arthropods    |      | Crawling, Near or looking at spider, cave spider, or silverfish spawner                      |
+| Bane of Arthropods    |      | Near or looking at spider, cave spider, or silverfish spawner                                |
 | Blast Protection      |      | Biome #is_badlands                                                                           |
 | Breach                |      | Biome dark_forest                                                                            |
 | Channeling            |      | Outside during thunderstorm                                                                  |
 | Darksight             |      | Biome deep_dark, pale_garden                                                                 |
-| Density               |      | Falling, Near or looking at vault or trial spawner                                           |
+| Density               |      | Near or looking at vault or trial spawner                                                    |
 | Depth strider         |      | Biome #is_deep_ocean                                                                         |
 | Efficiency            |      | Underground deeplslate layer, Biome nether_wastes                                            |
-| Feather Falling       |      | Falling, Biome #is_mountain, end_highlands                                                   |
+| Feather Falling       |      | Biome #is_mountain, end_highlands                                                            |
 | Fire Aspect           |      | Biome is_savannah                                                                            |
 | Fire Protection       |      | Biome basalt_delta                                                                           |
 | Flame                 |      | Biome crimson_forest                                                                         |
@@ -32,7 +32,7 @@
 | Punch                 |      | Biome windswept_hills, windswept_gravelly_hills, windswept_forest, small_end_islands         |
 | Quick Charge          |      | Biome the_end                                                                                |
 | Respiration           |      | Biome #is_ocean                                                                              |
-| Riptide               |      | Outside during rain                                                                          |
+| Riptide               |      | Outside during rain in biome #is_ocean, #is_river, #is_beach                                 |
 | Sharpness             |      | Biome ice_spikes, jagged_peaks                                                               |
 | Silk Touch            |      | Biome warped_forest                                                                          |
 | Smite                 |      | Biome soul_sand_valley, pale_garden                                                          |

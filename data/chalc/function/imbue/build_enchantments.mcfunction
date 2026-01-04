@@ -12,10 +12,10 @@ function chalc:imbue/biome4 {enchant:breach, biome:"dark_forest"}
 # TODO: Channeling
 # TODO: Density
 function chalc:imbue/biome3 {enchant:depth_strider, biome:"#is_deep_ocean"}
-function chalc:imbue/add_if5 {enchant:efficiency, f:"if score @s chalc.y <= #deepslate chalc unless biome ~ ~ ~ #chalc:underground"}
+function chalc:imbue/add_if5 {enchant:efficiency, f:"if dimension overworld if score @s chalc.y <= #deepslate chalc unless biome ~ ~ ~ #chalc:underground"}
 function chalc:imbue/biome4 {enchant:feather_falling, biome:"#chalc:feather_falling"}
 function chalc:imbue/biome2 {enchant:fire_aspect, biome:"#is_svannah"}
-function chalc:imbue/biome4 {enchant:fire_protection, biome:"basalt_delta"}
+function chalc:imbue/biome4 {enchant:fire_protection, biome:"basalt_deltas"}
 function chalc:imbue/biome1 {enchant:flame, biome:"crimson_forest"}
 function chalc:imbue/biome3med {enchant:fortune, biome:"#is_beach"}
 function chalc:imbue/biome2 {enchant:frost_walker, biome:"frozen_river"}
@@ -40,7 +40,7 @@ function chalc:imbue/biome1 {enchant:silk_touch, biome:"warped_forest"}
 function chalc:imbue/biome5 {enchant:smite, biome:"#chalc:smite"}
 function chalc:imbue/biome5 {enchant:sweeping_edge, biome:"#chalc:sweeping_edge"}
 function chalc:imbue/biome5 {enchant:thorns, biome:"#is_jungle"}
-function chalc:imbue/add_if3 {enchant:unbreaking, f:"if score @s chalc.y >= #deepslate chalc if score @s chalc.y < #sea_level chalc unless biome ~ ~ ~ #chalc:underground"}
+function chalc:imbue/add_if3 {enchant:unbreaking, f:"if dimension overworld if score @s chalc.y >= #deepslate chalc if score @s chalc.y < #sea_level chalc unless biome ~ ~ ~ #chalc:underground"}
 
 execute if score #cost chalc > @s chalc.levels run return run function chalc:imbue/build_enchantments
 execute store result storage chalc:imbue cost int -1 run scoreboard players get #cost chalc

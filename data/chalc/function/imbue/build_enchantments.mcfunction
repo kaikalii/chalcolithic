@@ -1,7 +1,11 @@
-execute if score #tries chalc = #0 chalc run return run function chalc:do_nothing
+
+execute if score #tries chalc matches 0 if score #too_expensive chalc matches 1 run return run function chalc:imbue/not_enough_xp
+execute if score #tries chalc matches 0 run return run function chalc:do_nothing
 scoreboard players remove #tries chalc 1
 
 execute store result score @s chalc.levels run xp query @s levels
+execute if score @s chalc.levels matches 0 run return run function chalc:imbue/not_enough_xp
+
 data remove storage chalc:imbue enchantments
 scoreboard players set #cost chalc 0
 
@@ -13,6 +17,7 @@ function chalc:imbue/add_if1 {enchant:channeling, f:"if predicate chalc:enchant/
 # TODO: Density
 function chalc:imbue/biome3 {enchant:depth_strider, biome:"#is_deep_ocean"}
 function chalc:imbue/add_if5 {enchant:efficiency, f:"if dimension overworld unless block ~ ~ ~ water if score @s chalc.y <= #deepslate chalc unless biome ~ ~ ~ #chalc:underground"}
+function chalc:imbue/biome5 {enchant:efficiency, biome:"nether_wastes"}
 function chalc:imbue/biome4 {enchant:feather_falling, biome:"#chalc:feather_falling"}
 function chalc:imbue/biome2 {enchant:fire_aspect, biome:"#is_svannah"}
 function chalc:imbue/biome4 {enchant:fire_protection, biome:"basalt_deltas"}
@@ -43,7 +48,9 @@ function chalc:imbue/biome5 {enchant:thorns, biome:"#is_jungle"}
 function chalc:imbue/add_if3 {enchant:unbreaking, f:"if dimension overworld unless block ~ ~ ~ water if score @s chalc.y >= #deepslate chalc if score @s chalc.y < #sea_level chalc unless biome ~ ~ ~ #chalc:underground"}
 function chalc:imbue/biome3 {enchant:unbreaking, biome:"stony_shore"}
 
+execute if score #cost chalc > @s chalc.levels run scoreboard players set #too_expensive chalc 1
+execute if score #cost chalc matches 0 run scoreboard players set #too_expensive chalc 1
 execute if score #cost chalc > @s chalc.levels run return run function chalc:imbue/build_enchantments
 execute store result storage chalc:imbue cost int -1 run scoreboard players get #cost chalc
-execute if score #cost chalc > #0 chalc run return run function chalc:imbue/enchant_book with storage chalc:imbue
+execute if score #cost chalc matches 1.. run return run function chalc:imbue/enchant_book with storage chalc:imbue
 function chalc:imbue/build_enchantments

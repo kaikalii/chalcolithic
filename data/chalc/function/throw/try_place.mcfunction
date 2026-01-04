@@ -1,6 +1,6 @@
 # Item must have a thrower
 execute store success score #temp chalc run data get entity @s Thrower
-execute if score #temp chalc = #0 chalc run return run function chalc:do_nothing
+execute if score #temp chalc matches 0 run return run function chalc:do_nothing
 # Can't be transparent below
 execute if block ~ ~-1 ~ #chalc:transparent run return run function chalc:do_nothing
 # Special cases

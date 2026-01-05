@@ -1,7 +1,5 @@
 {
     "values": [
-        "dropper",
-        "dispenser",
         "furnace",
         "blast_furnace"
     ]

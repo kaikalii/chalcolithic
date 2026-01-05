@@ -1,10 +1,7 @@
-
+# Limit tries
 execute if score #tries chalc matches 0 if score #too_expensive chalc matches 1 run return run function chalc:imbue/not_enough_xp
 execute if score #tries chalc matches 0 run return run function chalc:do_nothing
 scoreboard players remove #tries chalc 1
-
-execute store result score @s chalc.levels run xp query @s levels
-execute if score @s chalc.levels matches 0 run return run function chalc:imbue/not_enough_xp
 
 data remove storage chalc:imbue enchantments
 scoreboard players set #cost chalc 0
@@ -38,7 +35,7 @@ function chalc:imbue/biome5 {enchant:power, biome:"#chalc:power"}
 function chalc:imbue/biome4 {enchant:projectile_protection, biome:"#is_forest"}
 function chalc:imbue/biome4 {enchant:protection, biome:"#chalc:protection"}
 function chalc:imbue/biome3 {enchant:quick_charge, biome:"the_end"}
-function chalc:imbue/biome3 {enchant:respiration, biome:"#is_ocean"}
+function chalc:imbue/biome3 {enchant:respiration, biome:"#chalc:respiration"}
 function chalc:imbue/add_if1 {enchant:riptide, f:"if predicate chalc:enchant/riptide"}
 function chalc:imbue/biome5 {enchant:sharpness, biome:"#chalc:sharpness"}
 function chalc:imbue/biome1 {enchant:silk_touch, biome:"warped_forest"}

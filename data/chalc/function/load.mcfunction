@@ -5,3 +5,4 @@ function chalc:golem/load
 function chalc:imbue/load
 function chalc:repair/load
 function chalc:bucket/load
+function chalc:fill/load

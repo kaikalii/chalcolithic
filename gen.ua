@@ -211,3 +211,11 @@ MatTags MatGroups
   $$ 
   $$ return 0
 &fwa "data/chalc/function/repair/repair_amount.mcfunction"
+
+# Composter increase
+⟜↻₁ ⇡₀8
+⍚$"execute if block ~ ~ ~ composter[level=_] run return run setblock ~ ~ ~ composter[level=_]"
+⍜⊣(◇□₂"execute if block ~ ~ ~ composter[level=8] run summon item ~ ~ ~ {Item:{id:bone_meal,count:1}}")
+⊂{"# This file is generated""playsound block.composter.fill_success block @a"}
+/◇⊂₃@\n
+&fwa "data/chalc/function/fill/increase.mcfunction"

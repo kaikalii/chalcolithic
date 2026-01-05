@@ -1,4 +1,4 @@
-execute as @e[type=item] at @s positioned ~ ~ ~ if block ~ ~ ~ #chalc:chest run function chalc:fill/fill
-execute as @e[type=item] at @s positioned ~ ~-1 ~ if block ~ ~ ~ #chalc:full_and_fillable run function chalc:fill/fill
-execute as @e[type=item] at @s positioned ~ ~-1 ~ if block ~ ~ ~ barrel[facing=up] run setblock ~ ~ ~ barrel[facing=up,open=true]
-execute as @e[type=item] at @s positioned ~ ~-1 ~ if block ~ ~ ~ barrel[facing=up] run function chalc:fill/fill
+scoreboard players add #compost_timer chalc 1
+execute if score #compost_timer chalc matches 5 run scoreboard players set #compost_timer chalc 0
+
+execute as @e[type=item] at @s run function chalc:fill/tick_item

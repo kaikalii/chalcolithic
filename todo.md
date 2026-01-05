@@ -1,6 +1,5 @@
 # TODO
 
-- Composting
 - Enchantments:
   - Finding biomes
   - Finding height
@@ -8,3 +7,5 @@
   - Aesthetic
 - Vegetarian leather armor
 - Uses for raw iron blocks
+- Uses for pitcher pod and torch flower
+- More design for item collection

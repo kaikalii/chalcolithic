@@ -1,0 +1,1 @@
+scoreboard players set #compost_timer chalc 0

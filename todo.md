@@ -9,3 +9,6 @@
 - Uses for raw iron blocks
 - Uses for pitcher pod and torch flower
 - More design for item collection
+- Shelf Pipes!?!?!
+- Fix achievement for repairing enchanted gear
+- Make repair materials less annoying

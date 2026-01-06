@@ -11,4 +11,3 @@
 - More design for item collection
 - Shelf Pipes!?!?!
 - Fix achievement for repairing enchanted gear
-- Make repair materials less annoying

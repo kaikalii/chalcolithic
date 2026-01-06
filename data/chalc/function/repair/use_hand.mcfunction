@@ -7,6 +7,10 @@ execute if score #damage chalc matches 0 run return 0
 $execute store result score #repair_amount chalc run function chalc:repair/repair_amount {material:$(material), equipment:$(equipment)}
 execute if score #repair_amount chalc matches 0 run return 0
 
+# Check for XP
+execute store result score @s chalc.levels run xp query @s levels
+execute if score @s chalc.levels matches 0 run return run title @s actionbar {text:"Not enough XP", color:red}
+
 # Handle repair timer
 execute if score @s chalc.repair_timer matches 0 run playsound block.anvil.use block @a ^-0.5 ^1 ^1
 scoreboard players add @s chalc.repair_timer 2

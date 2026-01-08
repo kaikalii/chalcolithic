@@ -104,6 +104,7 @@ While these recipes are removed, most of the blocks and items can still be found
 - Enchanted books can be applied to equipment by holding the book in one hand and the equipment in the other and using the book. Armor must be held in the offhand to avoid equipping it instead.
   - This does not work on diamond or netherite gear.
   - Mending cannot be applied to elytra
+  - Golden equipment has a high chance to increase the level of enchantments applied to it by 1
 - The new *Darksight* enchantment for helmets shows blocks that are dark enough for mobs to spawn
 
 ### Repairing

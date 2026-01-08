@@ -8,4 +8,3 @@
 - Vegetarian leather armor
 - Uses for pitcher pod and torch flower
 - Uses for raw iron blocks
-- Improve enchantments on gold

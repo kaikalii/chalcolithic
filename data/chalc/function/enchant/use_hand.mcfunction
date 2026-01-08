@@ -5,4 +5,5 @@ execute if score #temp chalc matches 0 run return run title @s actionbar {"text"
 
 $data modify storage chalc:macro enchant.enchantments set from entity @s $(book_hand_path).components.minecraft:stored_enchantments
 $data modify storage chalc:macro enchant merge value {book_hand:$(book_hand),equipment_hand:$(equipment_hand)}
+$execute if items entity @s weapon.$(equipment_hand) #chalc:golden run function chalc:enchant/increase_enchantments
 function chalc:enchant/enchant_hand with storage chalc:macro enchant

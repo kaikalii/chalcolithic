@@ -8,7 +8,7 @@ data modify storage chalc:macro sherd set from block ~ ~ ~ sherds[2]
 execute if data storage chalc:macro {sherd:"minecraft:brick"} run scoreboard players remove #non_bricks chalc 1
 data modify storage chalc:macro sherd set from block ~ ~ ~ sherds[3]
 execute if data storage chalc:macro {sherd:"minecraft:brick"} run scoreboard players remove #non_bricks chalc 1
-scoreboard players set @s chalc.pot_fuel_time 10
+scoreboard players set @s chalc.pot_fuel_time 30
 scoreboard players operation @s chalc.pot_fuel_time /= #non_bricks chalc
 
 function chalc:pot/count_effect {sherd:angler}

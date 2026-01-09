@@ -9,4 +9,5 @@ function chalc:pot/sherd/danger
 function chalc:pot/sherd/explorer
 function chalc:pot/sherd/heart
 function chalc:pot/sherd/miner
+function chalc:pot/sherd/sheaf
 function chalc:pot/sherd/skull

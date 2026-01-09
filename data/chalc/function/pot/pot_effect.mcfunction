@@ -12,10 +12,10 @@ execute as @s[nbt={data:{blade:2}}] run effect give @a[distance=..10] strength 2
 execute as @s[nbt={data:{blade:3}}] run effect give @a[distance=..10] strength 2 2
 execute as @s[nbt={data:{blade:4}}] run effect give @a[distance=..10] strength 2 3
 
-execute as @s[nbt={data:{danger:1}}] run function chalc:pot/nullify_creepers {range:10}
-execute as @s[nbt={data:{danger:2}}] run function chalc:pot/nullify_creepers {range:20}
-execute as @s[nbt={data:{danger:3}}] run function chalc:pot/nullify_creepers {range:30}
-execute as @s[nbt={data:{danger:4}}] run function chalc:pot/nullify_creepers {range:40}
+execute as @s[nbt={data:{danger:1}}] run function chalc:pot/effect/nullify_creepers {range:10}
+execute as @s[nbt={data:{danger:2}}] run function chalc:pot/effect/nullify_creepers {range:20}
+execute as @s[nbt={data:{danger:3}}] run function chalc:pot/effect/nullify_creepers {range:30}
+execute as @s[nbt={data:{danger:4}}] run function chalc:pot/effect/nullify_creepers {range:40}
 
 execute as @s[nbt={data:{explorer:1}}] run effect give @a[distance=..10] speed 2
 execute as @s[nbt={data:{explorer:2}}] run effect give @a[distance=..10] speed 2 1
@@ -40,3 +40,8 @@ execute as @s[nbt={data:{angler:3}}] if predicate chalc:clear run tag @s add cle
 execute as @s[nbt={data:{angler:3}}] run weather thunder
 execute as @s[nbt={data:{angler:4}}] if predicate chalc:clear run tag @s add clear_weather
 execute as @s[nbt={data:{angler:4}}] run weather thunder
+
+execute as @s[nbt={data:{skull:1}}] run function chalc:pot/effect/modify_gear {range:5}
+execute as @s[nbt={data:{skull:2}}] run function chalc:pot/effect/modify_gear {range:10}
+execute as @s[nbt={data:{skull:3}}] run function chalc:pot/effect/modify_gear {range:15}
+execute as @s[nbt={data:{skull:4}}] run function chalc:pot/effect/modify_gear {range:20}

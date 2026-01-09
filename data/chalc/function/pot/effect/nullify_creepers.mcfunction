@@ -1,0 +1,2 @@
+$execute as @e[type=creeper,tag=!nullified,distance=..$(range)] at @s run function chalc:pot/effect/nullify_creeper
+$execute as @e[type=creeper,tag=nullified,distance=$(range)..] at @s run function chalc:pot/effect/unnullify_creeper

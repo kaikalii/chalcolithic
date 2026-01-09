@@ -5,7 +5,9 @@ function chalc:imbue/load
 function chalc:repair/load
 function chalc:bucket/load
 function chalc:fill/load
+function chalc:pot/load
 
 function chalc:copper_golem/update
 function chalc:drain/update
 function chalc:darksight/update
+function chalc:pot/update

@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "used_on_pot": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "decorated_pot"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "chalc:pot/use_item"
+    }
+}

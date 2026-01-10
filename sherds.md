@@ -8,7 +8,7 @@
 | Brewer     | Desert well    |                                       |                     |
 | Angler     | Ocean ruins    | Start rain                            | Rain then Thunder   |
 | Shelter    | Ocean ruins    | Spawn shelter when broken             | Wall, Hut, Tower    |
-| Snort      | Ocean ruins    |                                       |                     |
+| Snort      | Ocean ruins    | Find archeological sites              |                     |
 | Blade      | Ocean Ruins    | AoE Strength on players               | Strength            |
 | Explorer   | Ocean Ruins    | AoE Speed on players                  | Strength then Range |
 | Mourner    | Ocean Ruins    |                                       |                     |
@@ -19,4 +19,7 @@
 | Heart      | Trail Ruins    | AoE Regeneration on players           | Strength            |
 | Heartbreak | Trail Ruins    |                                       |                     |
 | Howl       | Trail Ruins    |                                       |                     |
-| Sheaf      | Trail Ruins    | AoE plant growth                      | Range and Frequency |
+| Sheaf      | Trail Ruins    |                                       | Range and Frequency |
+| Flow       | Trial Chambers | Spawn water source when broken        |                     |
+| Guster     | Trial Chambers |                                       |                     |
+| Scrape     | Trial Chambers |                                       |                     |

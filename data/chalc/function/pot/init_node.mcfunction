@@ -1,4 +1,10 @@
+# Orient
+execute if block ~ ~ ~ decorated_pot[facing=south] run tp @s ~ ~ ~ 0 0
+execute if block ~ ~ ~ decorated_pot[facing=west] run tp @s ~ ~ ~ 90 0
+execute if block ~ ~ ~ decorated_pot[facing=north] run tp @s ~ ~ ~ 180 0
+execute if block ~ ~ ~ decorated_pot[facing=east] run tp @s ~ ~ ~ 270 0
 
+# Count number of bricks vs non-bricks to determine cost
 scoreboard players set #non_bricks chalc 4 
 data modify storage chalc:macro sherd set from block ~ ~ ~ sherds[0]
 execute if data storage chalc:macro {sherd:"minecraft:brick"} run scoreboard players remove #non_bricks chalc 1
@@ -11,6 +17,7 @@ execute if data storage chalc:macro {sherd:"minecraft:brick"} run scoreboard pla
 scoreboard players set @s chalc.pot_fuel_time 30
 scoreboard players operation @s chalc.pot_fuel_time /= #non_bricks chalc
 
+# Count sherds
 function chalc:pot/count_effect {sherd:angler}
 function chalc:pot/count_effect {sherd:archer}
 function chalc:pot/count_effect {sherd:burn}

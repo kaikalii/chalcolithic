@@ -2,7 +2,7 @@ function chalc:replace_trades/tick
 function chalc:enchant/tick
 function chalc:nametag/tick
 function chalc:throw/tick
-function chalc:darksight/tick
+function chalc:pot/tick
 function chalc:imbue/tick
 function chalc:repair/tick
 function chalc:bucket/tick

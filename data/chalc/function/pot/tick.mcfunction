@@ -1,0 +1,1 @@
+execute as @e[type=text_display,tag=pot_node] at @s unless block ~ ~ ~ decorated_pot run return run function chalc:pot/despawn_node

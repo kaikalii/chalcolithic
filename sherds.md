@@ -7,11 +7,11 @@
 | Arms Up    | Desert well    |                                       |                     |
 | Brewer     | Desert well    |                                       |                     |
 | Angler     | Ocean ruins    | Start rain                            | Rain then Thunder   |
-| Shelter    | Ocean ruins    | Spawn shelter when broken             |                     |
+| Shelter    | Ocean ruins    | Spawn shelter when broken             | Wall, Hut, Tower    |
 | Snort      | Ocean ruins    |                                       |                     |
 | Blade      | Ocean Ruins    | AoE Strength on players               | Strength            |
 | Explorer   | Ocean Ruins    | AoE Speed on players                  | Strength then Range |
-| Mourner    | Ocean Ruins    | AoE Darkness                          |                     |
+| Mourner    | Ocean Ruins    |                                       |                     |
 | Plenty     | Ocean Ruins    |                                       |                     |
 | Burn       | Trail Ruins    | Light nearby hostile mobs on fire     |                     |
 | Danger     | Trail Ruins    | Make nearby creepers not attack       | Range               |

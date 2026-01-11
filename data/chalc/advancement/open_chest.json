@@ -1,0 +1,403 @@
+{
+    "criteria": {
+        "chests/abandoned_mineshaft": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/abandoned_mineshaft"
+            }
+        },
+        "chests/ancient_city": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/ancient_city"
+            }
+        },
+        "chests/ancient_city_ice_box": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/ancient_city_ice_box"
+            }
+        },
+        "chests/bastion_treasure": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/bastion_treasure"
+            }
+        },
+        "chests/bastion_other": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/bastion_other"
+            }
+        },
+        "chests/buried_treasure": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/buried_treasure"
+            }
+        },
+        "chests/bastion_hoglin_stable": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/bastion_hoglin_stable"
+            }
+        },
+        "chests/bastion_bridge": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/bastion_bridge"
+            }
+        },
+        "chests/simple_dungeon": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/simple_dungeon"
+            }
+        },
+        "chests/shipwreck_treasure": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/shipwreck_treasure"
+            }
+        },
+        "chests/spawn_bonus_chest": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/spawn_bonus_chest"
+            }
+        },
+        "chests/stronghold_corridor": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/stronghold_corridor"
+            }
+        },
+        "chests/shipwreck_supply": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/shipwreck_supply"
+            }
+        },
+        "chests/stronghold_crossing": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/stronghold_crossing"
+            }
+        },
+        "chests/shipwreck_map": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/shipwreck_map"
+            }
+        },
+        "chests/ruined_portal": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/ruined_portal"
+            }
+        },
+        "chests/stronghold_library": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/stronghold_library"
+            }
+        },
+        "chests/underwater_ruin_big": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/underwater_ruin_big"
+            }
+        },
+        "chests/pillager_outpost": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/pillager_outpost"
+            }
+        },
+        "chests/nether_bridge": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/nether_bridge"
+            }
+        },
+        "chests/jungle_temple_dispenser": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/jungle_temple_dispenser"
+            }
+        },
+        "chests/jungle_temple": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/jungle_temple"
+            }
+        },
+        "chests/igloo_chest": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/igloo_chest"
+            }
+        },
+        "chests/end_city_treasure": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/end_city_treasure"
+            }
+        },
+        "chests/underwater_ruin_small": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/underwater_ruin_small"
+            }
+        },
+        "chests/desert_pyramid": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/desert_pyramid"
+            }
+        },
+        "chests/woodland_mansion": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/woodland_mansion"
+            }
+        },
+        "chests/trial_chambers/intersection_barrel": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/trial_chambers/intersection_barrel"
+            }
+        },
+        "chests/trial_chambers/intersection": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/trial_chambers/intersection"
+            }
+        },
+        "chests/trial_chambers/entrance": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/trial_chambers/entrance"
+            }
+        },
+        "chests/trial_chambers/reward": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/trial_chambers/reward"
+            }
+        },
+        "chests/trial_chambers/reward_common": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/trial_chambers/reward_common"
+            }
+        },
+        "chests/trial_chambers/reward_ominous": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/trial_chambers/reward_ominous"
+            }
+        },
+        "chests/trial_chambers/reward_ominous_common": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/trial_chambers/reward_ominous_common"
+            }
+        },
+        "chests/trial_chambers/reward_ominous_rare": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/trial_chambers/reward_ominous_rare"
+            }
+        },
+        "chests/trial_chambers/reward_ominous_unique": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/trial_chambers/reward_ominous_unique"
+            }
+        },
+        "chests/trial_chambers/reward_rare": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/trial_chambers/reward_rare"
+            }
+        },
+        "chests/trial_chambers/reward_unique": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/trial_chambers/reward_unique"
+            }
+        },
+        "chests/trial_chambers/corridor": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/trial_chambers/corridor"
+            }
+        },
+        "chests/trial_chambers/supply": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/trial_chambers/supply"
+            }
+        },
+        "chests/village/village_weaponsmith": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/village/village_weaponsmith"
+            }
+        },
+        "chests/village/village_toolsmith": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/village/village_toolsmith"
+            }
+        },
+        "chests/village/village_temple": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/village/village_temple"
+            }
+        },
+        "chests/village/village_tannery": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/village/village_tannery"
+            }
+        },
+        "chests/village/village_taiga_house": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/village/village_taiga_house"
+            }
+        },
+        "chests/village/village_snowy_house": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/village/village_snowy_house"
+            }
+        },
+        "chests/village/village_shepherd": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/village/village_shepherd"
+            }
+        },
+        "chests/village/village_savanna_house": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/village/village_savanna_house"
+            }
+        },
+        "chests/village/village_plains_house": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/village/village_plains_house"
+            }
+        },
+        "chests/village/village_mason": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/village/village_mason"
+            }
+        },
+        "chests/village/village_fletcher": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/village/village_fletcher"
+            }
+        },
+        "chests/village/village_fisher": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/village/village_fisher"
+            }
+        },
+        "chests/village/village_desert_house": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/village/village_desert_house"
+            }
+        },
+        "chests/village/village_cartographer": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/village/village_cartographer"
+            }
+        },
+        "chests/village/village_butcher": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/village/village_butcher"
+            }
+        },
+        "chests/village/village_armorer": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/village/village_armorer"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "chests/abandoned_mineshaft",
+            "chests/ancient_city",
+            "chests/ancient_city_ice_box",
+            "chests/bastion_treasure",
+            "chests/bastion_other",
+            "chests/buried_treasure",
+            "chests/bastion_hoglin_stable",
+            "chests/bastion_bridge",
+            "chests/simple_dungeon",
+            "chests/shipwreck_treasure",
+            "chests/spawn_bonus_chest",
+            "chests/stronghold_corridor",
+            "chests/shipwreck_supply",
+            "chests/stronghold_crossing",
+            "chests/shipwreck_map",
+            "chests/ruined_portal",
+            "chests/stronghold_library",
+            "chests/underwater_ruin_big",
+            "chests/pillager_outpost",
+            "chests/nether_bridge",
+            "chests/jungle_temple_dispenser",
+            "chests/jungle_temple",
+            "chests/igloo_chest",
+            "chests/end_city_treasure",
+            "chests/underwater_ruin_small",
+            "chests/desert_pyramid",
+            "chests/woodland_mansion",
+            "chests/trial_chambers/intersection_barrel",
+            "chests/trial_chambers/intersection",
+            "chests/trial_chambers/entrance",
+            "chests/trial_chambers/reward",
+            "chests/trial_chambers/reward_common",
+            "chests/trial_chambers/reward_ominous",
+            "chests/trial_chambers/reward_ominous_common",
+            "chests/trial_chambers/reward_ominous_rare",
+            "chests/trial_chambers/reward_ominous_unique",
+            "chests/trial_chambers/reward_rare",
+            "chests/trial_chambers/reward_unique",
+            "chests/trial_chambers/corridor",
+            "chests/trial_chambers/supply",
+            "chests/village/village_weaponsmith",
+            "chests/village/village_toolsmith",
+            "chests/village/village_temple",
+            "chests/village/village_tannery",
+            "chests/village/village_taiga_house",
+            "chests/village/village_snowy_house",
+            "chests/village/village_shepherd",
+            "chests/village/village_savanna_house",
+            "chests/village/village_plains_house",
+            "chests/village/village_mason",
+            "chests/village/village_fletcher",
+            "chests/village/village_fisher",
+            "chests/village/village_desert_house",
+            "chests/village/village_cartographer",
+            "chests/village/village_butcher",
+            "chests/village/village_armorer"
+        ]
+    ],
+    "rewards": {
+        "function": "chalc:replace_loot/chest_opened"
+    }
+}

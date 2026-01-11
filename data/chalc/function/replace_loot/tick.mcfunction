@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=loot_replacer] at @s run function chalc:replace_loot/replace

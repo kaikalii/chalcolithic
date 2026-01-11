@@ -325,3 +325,85 @@ $$ }
 ⊂□"particle composter ~ ~0.2 ~ 0.2 0.2 0.2 0 3"
 /◇⊂₃@\n
 &fwa "data/chalc/function/pot/sheaf/grow_plant.mcfunction"
+
+{
+  "chests/abandoned_mineshaft"
+  "chests/ancient_city"
+  "chests/ancient_city_ice_box"
+  "chests/bastion_treasure"
+  "chests/bastion_other"
+  "chests/buried_treasure"
+  "chests/bastion_hoglin_stable"
+  "chests/bastion_bridge"
+  "chests/simple_dungeon"
+  "chests/shipwreck_treasure"
+  "chests/spawn_bonus_chest"
+  "chests/stronghold_corridor"
+  "chests/shipwreck_supply"
+  "chests/stronghold_crossing"
+  "chests/shipwreck_map"
+  "chests/ruined_portal"
+  "chests/stronghold_library"
+  "chests/underwater_ruin_big"
+  "chests/pillager_outpost"
+  "chests/nether_bridge"
+  "chests/jungle_temple_dispenser"
+  "chests/jungle_temple"
+  "chests/igloo_chest"
+  "chests/end_city_treasure"
+  "chests/underwater_ruin_small"
+  "chests/desert_pyramid"
+  "chests/woodland_mansion"
+  "chests/trial_chambers/intersection_barrel"
+  "chests/trial_chambers/intersection"
+  "chests/trial_chambers/entrance"
+  "chests/trial_chambers/reward"
+  "chests/trial_chambers/reward_common"
+  "chests/trial_chambers/reward_ominous"
+  "chests/trial_chambers/reward_ominous_common"
+  "chests/trial_chambers/reward_ominous_rare"
+  "chests/trial_chambers/reward_ominous_unique"
+  "chests/trial_chambers/reward_rare"
+  "chests/trial_chambers/reward_unique"
+  "chests/trial_chambers/corridor"
+  "chests/trial_chambers/supply"
+  "chests/village/village_weaponsmith"
+  "chests/village/village_toolsmith"
+  "chests/village/village_temple"
+  "chests/village/village_tannery"
+  "chests/village/village_taiga_house"
+  "chests/village/village_snowy_house"
+  "chests/village/village_shepherd"
+  "chests/village/village_savanna_house"
+  "chests/village/village_plains_house"
+  "chests/village/village_mason"
+  "chests/village/village_fletcher"
+  "chests/village/village_fisher"
+  "chests/village/village_desert_house"
+  "chests/village/village_cartographer"
+  "chests/village/village_butcher"
+  "chests/village/village_armorer"
+}
+⊃(⍚˙$$         "_": {
+    $$             "trigger": "player\_generates\_container\_loot",
+    $$             "conditions": {
+    $$                 "loot\_table": "_"
+    $$             }
+    $$         }
+  /◇⊂₃",\n"
+| /◇⊂₃",\n            " ⍚$$ "_"
+)
+$$ {
+$$     "criteria": {
+$$ _
+$$     },
+$$     "requirements": [
+$$         [
+$$             _
+$$         ]
+$$     ],
+$$     "rewards": {
+$$         "function": "chalc:replace\_loot/chest\_opened"
+$$     }
+$$ }
+&fwa "data/chalc/advancement/open_chest.json"

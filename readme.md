@@ -38,6 +38,7 @@ While these recipes are removed, most of the blocks and items can still be found
 
 ## Modified Recipes
 
+- Stone tools and furnaces now require polished versions of stone types, rather than cobbled
 - Raw copper and gold smelt into nuggets rather than ingots, and they require a blast furnace
 - A copper ingot is equivalent to 4 copper nuggets (down from 9)
 - A copper block is equivalent to 4 copper ingot (down from 9)
@@ -57,6 +58,7 @@ While these recipes are removed, most of the blocks and items can still be found
   - Brush
   - Saddle
 - Flint and Steel use raw iron instead of an ingot, but it requires kindling in the form of sticks. The more sticks added to the recipe, the higher the durability.
+- Crafted campfires and soul campfires no longer place already lighted. They must be lit with a flint and steel.
 - Shields, crossbows, and buckets are crafted with a copper ingot instead of iron.
 - Completely overhauled the recipes for:
   - Blast Furnace

@@ -7,5 +7,4 @@
   - Aesthetic
 - Uses for pitcher pod and torch flower
 - Add remaining pot effects
-- Simplify campfire recipe
-- Make stone tools harder to get
+- Cook items dropped on campfire

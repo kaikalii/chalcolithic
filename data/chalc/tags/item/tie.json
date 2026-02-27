@@ -1,8 +1,6 @@
 {
     "values": [
         "minecraft:string",
-        "minecraft:leather",
-        "minecraft:rabbit_hide",
         "minecraft:vine",
         "minecraft:weeping_vines",
         "minecraft:twisting_vines"

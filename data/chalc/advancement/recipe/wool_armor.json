@@ -82,7 +82,23 @@
             "chalc:wool/boots_brown",
             "chalc:wool/boots_green",
             "chalc:wool/boots_red",
-            "chalc:wool/boots_black"
+            "chalc:wool/boots_black",
+            "chalc:wool/horse_armor_white",
+            "chalc:wool/horse_armor_orange",
+            "chalc:wool/horse_armor_magenta",
+            "chalc:wool/horse_armor_light_blue",
+            "chalc:wool/horse_armor_yellow",
+            "chalc:wool/horse_armor_lime",
+            "chalc:wool/horse_armor_pink",
+            "chalc:wool/horse_armor_gray",
+            "chalc:wool/horse_armor_light_gray",
+            "chalc:wool/horse_armor_cyan",
+            "chalc:wool/horse_armor_purple",
+            "chalc:wool/horse_armor_blue",
+            "chalc:wool/horse_armor_brown",
+            "chalc:wool/horse_armor_green",
+            "chalc:wool/horse_armor_red",
+            "chalc:wool/horse_armor_black"
         ]
     }
 }

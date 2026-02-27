@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "#": "#chalc:affix",
+    "#": "#chalc:tie",
     "X": "minecraft:leather"
   },
   "pattern": [

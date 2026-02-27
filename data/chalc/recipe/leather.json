@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "-",
+        "o",
+        "-"
+    ],
+    "key": {
+        "-": "paper",
+        "o": "#chalc:binder"
+    },
+    "result": {
+        "id": "leather",
+        "components": {
+            "custom_name": "\"Leather\""
+        }
+    }
+}

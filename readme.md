@@ -83,6 +83,11 @@ While these recipes are removed, most of the blocks and items can still be found
   - Must be crafted from the same wool color
   - +4 armor total from a full set (compared to +7 from full leather)
 
+## Non-Violence
+- "Leather" can be crafted from paper layered with a binding agent
+- Chickens occasionally drop feathers
+- Fish can be thrown back for a while after being caught
+
 ## Other Changes
 
 ### Copper

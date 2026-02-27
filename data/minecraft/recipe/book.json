@@ -5,18 +5,8 @@
     "minecraft:paper",
     "minecraft:paper",
     "minecraft:paper",
-    [
-      "minecraft:string",
-      "minecraft:slime_ball",
-      "minecraft:honey_bottle"
-    ],
-    [
-      "minecraft:leather",
-      "minecraft:rabbit_hide",
-      "minecraft:big_dripleaf",
-      "minecraft:lily_pad",
-      "minecraft:kelp"
-    ]
+    "#chalc:small_binder",
+    "#chalc:book_cover"
   ],
   "result": {
     "count": 1,

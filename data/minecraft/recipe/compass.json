@@ -6,7 +6,7 @@
     "#": "minecraft:raw_iron",
     "R": "minecraft:redstone",
     "S": "minecraft:stick",
-    "N": "#chalc:affix"
+    "N": "#chalc:small_binder"
   },
   "pattern": [
     "GRG",

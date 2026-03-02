@@ -1,6 +1,6 @@
 {
     "values": [
-        "#chalc:transparent_non_fluid",
+        "air",
         "water",
         "lava"
     ]

@@ -1,1 +1,1 @@
-execute as @e[type=item,nbt={Item:{count:1},OnGround:true}] at @s if block ~ ~ ~ air run function chalc:throw/try_place
+execute as @e[type=item,nbt={Item:{count:1}}] if data entity @s Thrower at @s run function chalc:throw/try_place

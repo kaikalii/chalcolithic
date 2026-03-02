@@ -1,10 +1,5 @@
-# Item must have a thrower
-execute store success score #temp chalc run data get entity @s Thrower
-execute if score #temp chalc matches 0 run return 0
-# Can't be transparent below
-execute if block ~ ~-1 ~ #chalc:transparent run return 0
-# Special cases
-execute as @e[nbt={Item:{id:"minecraft:redstone"}}] run return run function chalc:throw/place {block:"redstone_wire"}
+# Place item as block
+execute as @s[nbt={OnGround:true}] if items entity @s contents #chalc:throw_place if block ~ ~ ~ air unless block ~ ~-1 ~ #chalc:transparent run function chalc:throw/place with entity @s Item
 
-data modify entity @s CustomName set from entity @s Item.id
-function chalc:throw/place with entity @s
+# Summon item as entity
+execute if items entity @s contents #chalc:throw_summon if block ~ ~ ~ #chalc:summon_in unless block ~ ~-0.1 ~ #chalc:transparent_non_fluid run function chalc:throw/summon with entity @s Item

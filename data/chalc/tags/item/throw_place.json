@@ -3,6 +3,7 @@
         "torch",
         "soul_torch",
         "copper_torch",
-        "redstone_torch"
+        "redstone_torch",
+        "tnt"
     ]
 }

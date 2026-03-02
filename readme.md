@@ -137,5 +137,8 @@ While these recipes are removed, most of the blocks and items can still be found
 - Copper trapdoors drain items from containers if placed on the side or underneath
 - Copper golems can now pick up items from the ground and sort them
 - Composters now automatically compost items dropped inside them
-- Torches thrown from a player's inventory will automatically place as blocks when touching the ground.
+- Some items thrown from a player's inventory will automatically place as blocks or entities when touching the ground:
+  - Torches
+  - TNT
+  - Boats
 - Cookable items thrown onto campfires are automatically cooked

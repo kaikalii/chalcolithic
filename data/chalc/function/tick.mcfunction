@@ -6,6 +6,7 @@ function chalc:enchant/tick
 function chalc:fill/tick
 function chalc:fish/tick
 function chalc:imbue/tick
+function chalc:imbue2/tick
 function chalc:nametag/tick
 function chalc:pot/tick
 function chalc:repair/tick

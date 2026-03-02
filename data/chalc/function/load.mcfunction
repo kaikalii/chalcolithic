@@ -6,6 +6,7 @@ scoreboard players set #32 chalc 32
 scoreboard players set #2032 chalc 2032
 
 function chalc:imbue/load
+function chalc:imbue2/load
 function chalc:repair/load
 function chalc:bucket/load
 function chalc:fill/load

@@ -1,0 +1,1 @@
+execute if function chalc:random/3 run particle enchant ~ ~1 ~ 0.1 0.1 0.1 0.1 1

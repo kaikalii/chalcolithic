@@ -1,3 +1,3 @@
 advancement revoke @s only chalc:use/enchanted_book
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:enchanted_book"}}] run return run function chalc:enchant/use_hand {book_hand_path:SelectedItem,book_hand:mainhand,equipment_hand:offhand}
-execute if entity @s[nbt={equipment:{offhand:{id:"minecraft:enchanted_book"}}}] run return run function chalc:enchant/use_hand {book_hand_path:equipment.offhand,book_hand:offhand,equipment_hand:mainhand}
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:stored_enchantments":{}}}}] run return run function chalc:enchant/use_hand {book_hand_path:SelectedItem,book_hand:mainhand,equipment_hand:offhand}
+execute if entity @s[nbt={equipment:{offhand:{components:{"minecraft:stored_enchantments":{}}}}}] run return run function chalc:enchant/use_hand {book_hand_path:equipment.offhand,book_hand:offhand,equipment_hand:mainhand}

@@ -1,0 +1,1 @@
+execute as @e[type=item, nbt={Item:{count:1}}] at @s if items entity @s contents #campfire_cookable run function chalc:campfire/tick_find

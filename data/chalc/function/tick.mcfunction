@@ -1,4 +1,5 @@
 function chalc:bucket/tick
+function chalc:campfire/tick
 function chalc:chicken/tick
 function chalc:drain/tick
 function chalc:enchant/tick

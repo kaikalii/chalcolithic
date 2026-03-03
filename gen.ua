@@ -416,7 +416,7 @@ $$ }
 [
   En ← ⟜(+×/-"_ "⊸=@_ ⍜⊜⊢⌵⊸≠@_)
   {"fermented_spider_eye" "bane_of_arthropods" "Bane of Arthropods" 0 6}
-  {"brick" En "blast_protection" 0 4}
+  {"#chalc:scutes" En "blast_protection" 0 4}
   {"nether_wart" En "channeling" 0 1}
   {"spider_eye" "chalc:darksight" "Darksight" 0 1}
   {"nether_brick" En "density" 0 6}
@@ -436,7 +436,7 @@ $$ }
   {"amethyst_shard" En "piercing" 0 4}
   {"string" En "power" 0 6}
   {"leather" En "projectile_protection" 0 4}
-  {"#chalc:scutes" En "protection" 0 4}
+  {"brick" En "protection" 0 4}
   {"nautilus_shell" En "respiration" 0 3}
   {"flint" En "sharpness" 0 6}
   {"slime_ball" En "silk_touch" 1 1}

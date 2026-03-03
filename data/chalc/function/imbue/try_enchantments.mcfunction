@@ -1,6 +1,6 @@
 # This file is generated
 execute if items entity @s weapon.mainhand fermented_spider_eye run return run function chalc:imbue/catalyst {offset:0,max:6,en:"bane_of_arthropods",name:"Bane of Arthropods"}
-execute if items entity @s weapon.mainhand brick run return run function chalc:imbue/catalyst {offset:0,max:4,en:"blast_protection",name:"Blast Protection"}
+execute if items entity @s weapon.mainhand #chalc:scutes run return run function chalc:imbue/catalyst {offset:0,max:4,en:"blast_protection",name:"Blast Protection"}
 execute if items entity @s weapon.mainhand nether_wart run return run function chalc:imbue/catalyst {offset:0,max:1,en:"channeling",name:"Channeling"}
 execute if items entity @s weapon.mainhand spider_eye run return run function chalc:imbue/catalyst {offset:0,max:1,en:"chalc:darksight",name:"Darksight"}
 execute if items entity @s weapon.mainhand nether_brick run return run function chalc:imbue/catalyst {offset:0,max:6,en:"density",name:"Density"}
@@ -20,7 +20,7 @@ execute if items entity @s weapon.mainhand honeycomb run return run function cha
 execute if items entity @s weapon.mainhand amethyst_shard run return run function chalc:imbue/catalyst {offset:0,max:4,en:"piercing",name:"Piercing"}
 execute if items entity @s weapon.mainhand string run return run function chalc:imbue/catalyst {offset:0,max:6,en:"power",name:"Power"}
 execute if items entity @s weapon.mainhand leather run return run function chalc:imbue/catalyst {offset:0,max:4,en:"projectile_protection",name:"Projectile Protection"}
-execute if items entity @s weapon.mainhand #chalc:scutes run return run function chalc:imbue/catalyst {offset:0,max:4,en:"protection",name:"Protection"}
+execute if items entity @s weapon.mainhand brick run return run function chalc:imbue/catalyst {offset:0,max:4,en:"protection",name:"Protection"}
 execute if items entity @s weapon.mainhand nautilus_shell run return run function chalc:imbue/catalyst {offset:0,max:3,en:"respiration",name:"Respiration"}
 execute if items entity @s weapon.mainhand flint run return run function chalc:imbue/catalyst {offset:0,max:6,en:"sharpness",name:"Sharpness"}
 execute if items entity @s weapon.mainhand slime_ball run return run function chalc:imbue/catalyst {offset:1,max:1,en:"silk_touch",name:"Silk Touch"}

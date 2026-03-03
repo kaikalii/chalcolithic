@@ -1,7 +1,7 @@
 {
     "values": [
         "fermented_spider_eye",
-        "brick",
+        "#chalc:scutes",
         "nether_wart",
         "spider_eye",
         "nether_brick",
@@ -21,7 +21,7 @@
         "amethyst_shard",
         "string",
         "leather",
-        "#chalc:scutes",
+        "brick",
         "nautilus_shell",
         "flint",
         "slime_ball",

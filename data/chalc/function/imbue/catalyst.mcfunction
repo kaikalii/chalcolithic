@@ -1,9 +1,9 @@
 $scoreboard players set #required_power chalc $(offset)
-scoreboard players operation #required_power chalc *= #5 chalc
+scoreboard players operation #required_power chalc *= #imbue_interval chalc
 execute if score #imbue_max chalc < #required_power chalc run return run function chalc:imbue/not_enough_power
 
 execute store result score #level chalc run scoreboard players get #imbue_max chalc
-scoreboard players operation #level chalc /= #5 chalc
+scoreboard players operation #level chalc /= #imbue_interval chalc
 scoreboard players add #level chalc 1
 $scoreboard players remove #level chalc $(offset)
 execute if score #level chalc matches ..0 run scoreboard players set #level chalc 1

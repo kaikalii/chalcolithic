@@ -1,0 +1,16 @@
+{
+    "parent": "chalc:story/imbue_gold",
+    "criteria": {
+        "manual": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "title": "Shine Bright",
+        "description": "Imbue a catalyst with at least 24 enchanting power",
+        "icon": {
+            "id": "diamond_block"
+        },
+        "frame": "goal"
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "parent": "chalc:story/jump_on_lapis",
+  "criteria": {
+    "manual": {
+      "trigger": "impossible"
+    }
+  },
+  "display": {
+    "title": "Catalyzed",
+    "description": "Imbue an enchantment catalyst",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:flint",
+      "components": {
+        "enchantment_glint_override": true
+      }
+    }
+  }
+}

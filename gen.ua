@@ -415,13 +415,13 @@ $$ }
 # Enchantments
 [
   En ← ⟜(+×/-"_ "⊸=@_ ⍜⊜⊢⌵⊸≠@_)
-  {"fermented_spider_eye" "bane_of_arthropods" "Bane of Arthropods" 0 5}
+  {"fermented_spider_eye" "bane_of_arthropods" "Bane of Arthropods" 0 6}
   {"brick" En "blast_protection" 0 4}
   {"nether_wart" En "channeling" 0 1}
   {"spider_eye" "chalc:darksight" "Darksight" 0 1}
-  {"nether_brick" En "density" 0 5}
+  {"nether_brick" En "density" 0 6}
   {"prismarine_crystals" En "depth_strider" 0 3}
-  {"gunpowder" En "efficiency" 0 5}
+  {"gunpowder" En "efficiency" 0 6}
   {"feather" En "feather_falling" 0 4}
   {"blaze_rod" En "fire_aspect" 0 2}
   {"magma_cream" En "fire_protection" 0 4}
@@ -434,13 +434,13 @@ $$ }
   {"phantom_membrane" En "lunge" 0 3}
   {"honeycomb" En "lure" 0 3}
   {"amethyst_shard" En "piercing" 0 4}
-  {"string" En "power" 0 5}
+  {"string" En "power" 0 6}
   {"leather" En "projectile_protection" 0 4}
   {"#chalc:scutes" En "protection" 0 4}
   {"nautilus_shell" En "respiration" 0 3}
-  {"flint" En "sharpness" 0 5}
+  {"flint" En "sharpness" 0 6}
   {"slime_ball" En "silk_touch" 1 1}
-  {"sugar" En "smite" 0 5}
+  {"sugar" En "smite" 0 6}
   {"quartz" En "sweeping_edge" 0 3}
   {"cactus" En "thorns" 0 3}
   {"clay_ball" En "unbreaking" 0 3}

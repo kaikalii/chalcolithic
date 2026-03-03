@@ -1,0 +1,22 @@
+{
+    "parent": "minecraft:story/mine_stone",
+    "criteria": {
+        "has_smooth": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#stone_tool_materials"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": "Well-Polished",
+        "description": "Acquire any Polished stone",
+        "icon": {
+            "id": "polished_diorite"
+        }
+    }
+}

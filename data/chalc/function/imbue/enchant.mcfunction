@@ -6,6 +6,10 @@ item modify entity @s weapon.mainhand {function:"set_count",count:-1,add:true}
 $give @s $(id)[stored_enchantments={"$(en)":$(level)}, enchantment_glint_override=1b,custom_name="$(name) Catalyst",consumable={consume_seconds:1000,has_consume_particles:false,animation:"bundle"},lore=["Use to enchant other hand"]] 1
 playsound block.enchantment_table.use block
 particle enchant ~ ~1.5 ~ 0.6 0.2 0.6 0.1 40
+advancement grant @s only chalc:story/imbue
+execute if score #imbue_max chalc matches 8.. run advancement grant @s only chalc:story/imbue_gold
+execute if score #imbue_max chalc matches 16.. run advancement grant @s only chalc:story/imbue_diamond
+execute if score #imbue_max chalc matches 40.. run advancement grant @s only chalc:story/imbue_netherite
 
 execute store result score #rand chalc run random value 0..19
 $execute unless score #rand chalc matches $(level).. run setblock ~ ~-1 ~ air

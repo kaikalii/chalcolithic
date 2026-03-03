@@ -1,0 +1,16 @@
+{
+    "parent": "chalc:story/imbue_diamond",
+    "criteria": {
+        "manual": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "title": "Forbidden Reaction",
+        "description": "Imbue a catalyst with at least 40 enchanting power",
+        "icon": {
+            "id": "netherite_block"
+        },
+        "frame": "challenge"
+    }
+}

@@ -1,5 +1,5 @@
 {
-    "parent": "minecraft:story/upgrade_tools",
+    "parent": "chalc:story/deeplslate",
     "criteria": {
         "blast_furnace": {
             "conditions": {
@@ -24,6 +24,5 @@
         [
             "blast_furnace"
         ]
-    ],
-    "sends_telemetry_event": true
+    ]
 }

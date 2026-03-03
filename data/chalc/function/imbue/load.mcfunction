@@ -1,0 +1,1 @@
+scoreboard players set #imbue_interval chalc 8

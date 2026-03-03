@@ -1,0 +1,15 @@
+{
+    "parent": "chalc:story/imbue",
+    "criteria": {
+        "manual": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "title": "Gonna be golden",
+        "description": "Imbue a catalyst with at least 8 enchanting power",
+        "icon": {
+            "id": "gold_block"
+        }
+    }
+}

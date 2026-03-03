@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:story/upgrade_tools",
+    "criteria": {
+        "manual": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "title": "What does this do?",
+        "description": "Jump on a block of Lapis Lazuli",
+        "icon": {
+            "id": "lapis_block"
+        }
+    }
+}

@@ -4,7 +4,6 @@ scoreboard objectives add chalc.levels dummy
 # Numbers
 scoreboard players set #neg1 chalc -1
 scoreboard players set #0 chalc 0
-scoreboard players set #5 chalc 5
 scoreboard players set #20 chalc 20
 scoreboard players set #32 chalc 32
 scoreboard players set #2032 chalc 2032
@@ -16,6 +15,7 @@ execute as @a store result score @s chalc.on_ground run data get entity @s OnGro
 function chalc:repair/load
 function chalc:bucket/load
 function chalc:fill/load
+function chalc:imbue/load
 function chalc:pot/load
 
 function chalc:copper_golem/update

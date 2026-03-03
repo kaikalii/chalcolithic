@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:story/blast_furnace",
+  "parent": "chalc:story/blast_furnace",
   "criteria": {
     "copper": {
       "conditions": {

@@ -1,4 +1,5 @@
 execute unless block ~ ~-1 ~ lapis_block run return 0
+advancement grant @s only chalc:story/jump_on_lapis
 
 # Calc max
 scoreboard players set #imbue_max chalc 0

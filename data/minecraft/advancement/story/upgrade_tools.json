@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:story/mine_stone",
+  "parent": "chalc:story/polished",
   "criteria": {
     "stone_pickaxe": {
       "conditions": {

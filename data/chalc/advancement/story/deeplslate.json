@@ -1,0 +1,22 @@
+{
+    "parent": "story/upgrade_tools",
+    "criteria": {
+        "has_deepslate": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "cobbled_deepslate"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": "What's down here?",
+        "description": "Acquire any dark stone",
+        "icon": {
+            "id": "deepslate"
+        }
+    }
+}

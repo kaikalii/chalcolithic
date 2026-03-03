@@ -1,4 +1,3 @@
-$title @p[distance=..4] actionbar {text: "Levels required: $(level)", color: red}
-
-scoreboard players set @s chalc.imbue2_timer 0
-
+$title @s actionbar {text: "Levels required: $(level)", color: red}
+playsound block.note_block.didgeridoo block
+return 0

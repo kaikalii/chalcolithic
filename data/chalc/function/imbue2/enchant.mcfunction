@@ -1,14 +1,14 @@
-execute store result score @p chalc.levels run xp query @p levels
-$execute unless score @p chalc.levels matches $(level).. run return run function chalc:imbue$(level)/not_enough_levels {level:2}
+execute store result score @s chalc.levels run xp query @s levels
+$execute unless score @s chalc.levels matches $(level).. run return run function chalc:imbue2/not_enough_levels {level:$(level)}
 
-function chalc:imbue2/effect
+$xp add @s -$(level) levels
+item modify entity @s weapon.mainhand {function:"set_count",count:-1,add:true}
+$give @s $(cat)[stored_enchantments={$(en):$(level)}, enchantment_glint_override=1b,custom_name="$(name) Catalyst",consumable={consume_seconds:1000,has_consume_particles:false,animation:"bundle"},lore=["Use to enchant other hand"]] 1
+playsound block.enchantment_table.use block
+particle enchant ~ ~1.5 ~ 0.6 0.2 0.6 0.1 40
 
-execute unless score @s chalc.imbue2_timer matches 20.. run return 0
+execute store result score #rand chalc run random value 0..19
+$execute unless score #rand chalc matches $(level).. run setblock ~ ~-1 ~ air
+$execute unless score #rand chalc matches $(level).. run playsound block.beacon.deactivate block
 
-$xp add @p -$(level) levels
-$data modify storage chalc:imbue2 stored_enchantments set value {$(en):$(level)}
-$data modify entity @s Item.components set value {stored_enchantments:{$(en):$(level)}, enchantment_glint_override:1b,custom_name:"$(en) Catalyst"}
-item modify entity @s contents chalc:make_enchanted_book_consumable
-
-scoreboard players set @s chalc.imbue2_timer 0
-data modify entity @s NoGravity set value 0b
+return 1

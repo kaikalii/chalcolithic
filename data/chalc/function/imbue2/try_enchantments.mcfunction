@@ -1,1 +1,1 @@
-execute if items entity @s contents flint run return run function chalc:imbue2/catalyst/flint
+execute if items entity @s weapon.mainhand flint run return run function chalc:imbue2/catalyst {offset:0,max:5,cat:flint,en:sharpness,name:Sharpness}

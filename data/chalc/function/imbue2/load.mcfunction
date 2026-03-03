@@ -1,1 +1,0 @@
-scoreboard objectives add chalc.imbue2_timer dummy

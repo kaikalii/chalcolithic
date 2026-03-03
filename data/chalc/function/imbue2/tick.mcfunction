@@ -1,2 +1,0 @@
-execute as @e[type=item,nbt={Item:{count:1}}] if items entity @s contents #chalc:catalyst unless data entity @s Item.components."minecraft:stored_enchantments" at @s run function chalc:imbue2/tick_item
-execute as @e[type=item,nbt={Item:{count:1}}] unless items entity @s contents #chalc:catalyst at @s if block ~ ~-1 ~ lapis_block run title @p[distance=..4] actionbar {text:"Invalid enchantment catalyst", color:"red"}

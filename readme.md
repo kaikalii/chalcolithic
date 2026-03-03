@@ -11,7 +11,7 @@ High-temperature metallurgy is a lost art, and neither the player nor villagers 
 - Altered recipes for many things
   - Many smelting recipes require a **blast furnace**, which has a new recipe itself
   - Crafting changes mean that **copper is king**
-- **Overhauled the enchanting system** to be based more on exploration and less on random chance
+- **Overhauled the enchanting system** to be less random and require different items for different enchantments
 - **Buckets are nerfed**. The source blocks they place quickly disappear.
 - Much more!
 
@@ -52,8 +52,6 @@ While these recipes are removed, most of the blocks and items can still be found
   - Vines
   - Weeping Vines
   - Twisting Vines
-  - Leather
-  - Rabbit Hide
 - Some recipes that previously required an ingot require either a tie item or a sticky item:
   - Brush
   - Saddle
@@ -101,17 +99,14 @@ While these recipes are removed, most of the blocks and items can still be found
 - Iron golems are *clay* golems. They are made in the normal shape, but with clay blocks instead of iron blocks. The clay must be surrounded by mud. Clay golems drop clay balls instead of iron ingots.
 
 ### Enchanting
-- Rather than at an enchanting table, all enchanting is now done through enchanted books
-- Enchantable books can be imbued with enchantments by using them in different places
-  - Different biomes give different enchantments
-  - Some biomes give multiple enchantments, some only one
-  - Enchanting a book costs levels equal to the sum of the resulting enchantment levels
-  - Higher total levels allow for stronger enchantments
-  - Stronger enchantments require higher tiered enchantable books, which are a new sink for valuable materials like diamond and netherite
-  - Enchanting a book absorbs magic from the environment, and additional books cannot be enchanted nearby until a period of time has passed
-  - Particles in the area show where a book was enchanted and indicate the cooldown
-  - If a book was too recently enchanted nearby, particles will point to where that was
-- Enchanted books can be applied to equipment by holding the book in one hand and the equipment in the other and using the book. Armor must be held in the offhand to avoid equipping it instead.
+- Rather than at an enchanting table, all enchanting is now done through items *imbued* with enchantments (including enchanted books)
+- Certain *enchantment catalyst* items can be imbued at an *enchanting altar*
+  - The altar is constructed from a single block of lapis lazuli surrounded by gold, diamond, or netherite blocks
+  - More valuable surrounding blocks increase the power of enchantments
+  - Imbuing is carried out by holding a catalyst in the main hand and jumping on the lapis block
+  - Imbuing a catalyst costs a few levels
+  - There is a chance the lapis block will be destroyed, with stronger enchantments increasing the chance
+- Imbued catalysts and enchanted books can be applied to equipment by holding the imbued item in one hand and the equipment in the other and using the imbued item. Armor must be held in the offhand to avoid equipping it instead.
   - This does not work on diamond or netherite gear.
   - Mending cannot be applied to elytra
   - Golden equipment has a high chance to increase the level of enchantments applied to it by 1
@@ -138,7 +133,10 @@ While these recipes are removed, most of the blocks and items can still be found
 - Copper golems can now pick up items from the ground and sort them
 - Composters now automatically compost items dropped inside them
 - Some items thrown from a player's inventory will automatically place as blocks or entities when touching the ground:
-  - Torches
+  - Torches (all kinds)
   - TNT
   - Boats
 - Cookable items thrown onto campfires are automatically cooked
+
+### Miscellaneous
+- Vines have a chance to drop without using shears

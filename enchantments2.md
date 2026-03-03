@@ -7,7 +7,7 @@
 | Channeling            | 1          | Nether Wart          |
 | Darksight*            | 1          | Spider Eye           |
 | Density               | 1          | Nether Brick         |
-| Depth strider         | 1          | Prismarine Shard     |
+| Depth strider         | 1          | Prismarine Crystals  |
 | Efficiency            | 1          | Gunpowder            |
 | Feather Falling       | 1          | Feather              |
 | Fire Aspect           | 1          | Blaze Rod            |
@@ -37,7 +37,7 @@
 | Silk Touch            | 1          | Slimeball            |
 | Smite                 | 1          | Sugar                |
 | Soul Speed            | N/A        | Treasure Only        |
-| Sweeping Edge         | 1          | Nether Quartz        |
+| Sweeping Edge         | 1          | Quartz               |
 | Swift Sneak           | N/A        | Treasure Only        |
 | Thorns                | 1          | Cactus               |
 | Wind Burst            | N/A        | Treasure Only        |

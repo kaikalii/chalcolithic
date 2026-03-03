@@ -411,3 +411,51 @@ $$         "function": "chalc:replace\_loot/chest\_opened"
 $$     }
 $$ }
 &fwa "data/chalc/advancement/open_chest.json"
+
+# Enchantments
+[
+  En ← ⟜(+×/-"_ "⊸=@_ ⍜⊜⊢⌵⊸≠@_)
+  {"fermented_spider_eye" "bane_of_arthropods" "Bane of Arthropods" 0 5}
+  {"brick" En "blast_protection" 0 4}
+  {"nether_wart" En "channeling" 0 1}
+  {"spider_eye" "chalc:darksight" "Darksight" 0 1}
+  {"nether_brick" En "density" 0 5}
+  {"prismarine_crystals" En "depth_strider" 0 3}
+  {"gunpowder" En "efficiency" 0 5}
+  {"feather" En "feather_falling" 0 4}
+  {"blaze_rod" En "fire_aspect" 0 2}
+  {"magma_cream" En "fire_protection" 0 4}
+  {"blaze_powder" En "flame" 0 1}
+  {"glowstone_dust" En "fortune" 1 3}
+  {"pointed_dripstone" En "impaling" 0 1}
+  {"bone" En "looting" 1 3}
+  {"glow_ink_sac" En "loyalty" 1 3}
+  {"heart_of_the_sea" "luck_of_the_sea" "Luck of the Sea" 0 3}
+  {"phantom_membrane" En "lunge" 0 3}
+  {"honeycomb" En "lure" 0 3}
+  {"amethyst_shard" En "piercing" 0 4}
+  {"string" En "power" 0 5}
+  {"leather" En "projectile_protection" 0 4}
+  {"#chalc:scutes" En "protection" 0 4}
+  {"nautilus_shell" En "respiration" 0 3}
+  {"flint" En "sharpness" 0 5}
+  {"slime_ball" En "silk_touch" 1 1}
+  {"sugar" En "smite" 0 5}
+  {"quartz" En "sweeping_edge" 0 3}
+  {"cactus" En "thorns" 0 3}
+  {"clay_ball" En "unbreaking" 0 3}
+]
+
+⊃(/◇⊂₃ ",\n        " ⍚($"\"_\""⊢)
+  $$ {
+  $$     "values": [
+  $$         _
+  $$     ]
+  $$ }
+  &fwa "data/chalc/tags/item/catalyst.json"
+| ⍚(⊃⊙⋅⋅⊙∘⋅⊙∘ °□₅
+    $$ execute if items entity @s weapon.mainhand _ run return run function chalc:imbue2/catalyst {offset:_,max:_,en:"_",name:"_"}
+  )
+  ⊂"# This file is generated\n" /◇⊂₃@\n
+  &fwa "data/chalc/function/imbue2/try_enchantments.mcfunction"
+)

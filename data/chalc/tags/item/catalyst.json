@@ -1,10 +1,33 @@
 {
     "values": [
-        "flint",
+        "fermented_spider_eye",
+        "brick",
+        "nether_wart",
+        "spider_eye",
+        "nether_brick",
+        "prismarine_crystals",
+        "gunpowder",
+        "feather",
         "blaze_rod",
+        "magma_cream",
         "blaze_powder",
+        "glowstone_dust",
+        "pointed_dripstone",
+        "bone",
+        "glow_ink_sac",
+        "heart_of_the_sea",
+        "phantom_membrane",
+        "honeycomb",
+        "amethyst_shard",
+        "string",
+        "leather",
         "#chalc:scutes",
-        "glowstone",
-        "sugar"
+        "nautilus_shell",
+        "flint",
+        "slime_ball",
+        "sugar",
+        "quartz",
+        "cactus",
+        "clay_ball"
     ]
 }

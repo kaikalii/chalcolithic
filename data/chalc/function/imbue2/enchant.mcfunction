@@ -3,7 +3,7 @@ $execute unless score @s chalc.levels matches $(level).. run return run function
 
 $xp add @s -$(level) levels
 item modify entity @s weapon.mainhand {function:"set_count",count:-1,add:true}
-$give @s $(cat)[stored_enchantments={$(en):$(level)}, enchantment_glint_override=1b,custom_name="$(name) Catalyst",consumable={consume_seconds:1000,has_consume_particles:false,animation:"bundle"},lore=["Use to enchant other hand"]] 1
+$give @s $(id)[stored_enchantments={"$(en)":$(level)}, enchantment_glint_override=1b,custom_name="$(name) Catalyst",consumable={consume_seconds:1000,has_consume_particles:false,animation:"bundle"},lore=["Use to enchant other hand"]] 1
 playsound block.enchantment_table.use block
 particle enchant ~ ~1.5 ~ 0.6 0.2 0.6 0.1 40
 

@@ -1,0 +1,1 @@
+title @s actionbar {text:"No enchanting power, ",color:"red", extra:[{text:"Gold too far",color:gold}]}

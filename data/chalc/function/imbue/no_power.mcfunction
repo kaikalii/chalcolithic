@@ -1,0 +1,70 @@
+execute if block ~1 ~-2 ~0 gold_block run return run function chalc:imbue/no_power_too_low
+execute if block ~1 ~-2 ~1 gold_block run return run function chalc:imbue/no_power_too_low
+execute if block ~0 ~-2 ~1 gold_block run return run function chalc:imbue/no_power_too_low
+execute if block ~-1 ~-2 ~1 gold_block run return run function chalc:imbue/no_power_too_low
+execute if block ~-1 ~-2 ~0 gold_block run return run function chalc:imbue/no_power_too_low
+execute if block ~-1 ~-2 ~-1 gold_block run return run function chalc:imbue/no_power_too_low
+execute if block ~0 ~-2 ~-1 gold_block run return run function chalc:imbue/no_power_too_low
+execute if block ~1 ~-2 ~-1 gold_block run return run function chalc:imbue/no_power_too_low
+
+execute if block ~1 ~ ~0 gold_block run return run function chalc:imbue/no_power_too_high
+execute if block ~1 ~ ~1 gold_block run return run function chalc:imbue/no_power_too_high
+execute if block ~0 ~ ~1 gold_block run return run function chalc:imbue/no_power_too_high
+execute if block ~-1 ~ ~1 gold_block run return run function chalc:imbue/no_power_too_high
+execute if block ~-1 ~ ~0 gold_block run return run function chalc:imbue/no_power_too_high
+execute if block ~-1 ~ ~-1 gold_block run return run function chalc:imbue/no_power_too_high
+execute if block ~0 ~ ~-1 gold_block run return run function chalc:imbue/no_power_too_high
+execute if block ~1 ~ ~-1 gold_block run return run function chalc:imbue/no_power_too_high
+
+execute if block ~2 ~ ~0 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~2 ~ ~1 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~2 ~ ~2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~1 ~ ~2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~0 ~ ~2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~-1 ~ ~2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~-2 ~ ~2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~-2 ~ ~1 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~-2 ~ ~0 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~-2 ~ ~-1 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~-2 ~ ~-2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~-1 ~ ~-2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~0 ~ ~-2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~1 ~ ~-2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~2 ~ ~-2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~2 ~ ~-1 gold_block run return run function chalc:imbue/no_power_too_far
+
+execute if block ~2 ~1 ~0 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~2 ~1 ~1 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~2 ~1 ~2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~1 ~1 ~2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~0 ~1 ~2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~-1 ~1 ~2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~-2 ~1 ~2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~-2 ~1 ~1 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~-2 ~1 ~0 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~-2 ~1 ~-1 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~-2 ~1 ~-2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~-1 ~1 ~-2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~0 ~1 ~-2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~1 ~1 ~-2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~2 ~1 ~-2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~2 ~1 ~-1 gold_block run return run function chalc:imbue/no_power_too_far
+
+execute if block ~2 ~-1 ~0 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~2 ~-1 ~1 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~2 ~-1 ~2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~1 ~-1 ~2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~0 ~-1 ~2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~-1 ~-1 ~2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~-2 ~-1 ~2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~-2 ~-1 ~1 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~-2 ~-1 ~0 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~-2 ~-1 ~-1 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~-2 ~-1 ~-2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~-1 ~-1 ~-2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~0 ~-1 ~-2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~1 ~-1 ~-2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~2 ~-1 ~-2 gold_block run return run function chalc:imbue/no_power_too_far
+execute if block ~2 ~-1 ~-1 gold_block run return run function chalc:imbue/no_power_too_far
+
+title @s actionbar {text:"No enchanting power, ",color:"red", extra:[{text:"No gold present",color:gold}]}

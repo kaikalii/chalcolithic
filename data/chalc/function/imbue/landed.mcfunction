@@ -11,7 +11,7 @@ execute positioned ~-1 ~-1 ~-1 run function chalc:imbue/max_add
 execute positioned ~0 ~-1 ~-1 run function chalc:imbue/max_add
 execute positioned ~1 ~-1 ~-1 run function chalc:imbue/max_add
 
-execute if score #imbue_max chalc matches 0 run return run title @s actionbar {text:"No enchanting power",color:"red"}
+execute if score #imbue_max chalc matches 0 run return run function chalc:imbue/no_power
 
 execute unless items entity @s weapon.mainhand #chalc:catalyst unless items entity @s weapon.mainhand #chalc:imbue_power if data entity @s SelectedItem run return run function chalc:imbue/invalid_catalyst
 execute if items entity @s weapon.mainhand #chalc:catalyst if data entity @s SelectedItem.components."minecraft:stored_enchantments" run return 0

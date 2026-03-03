@@ -1,0 +1,1 @@
+execute if items entity @s contents flint run return run function chalc:imbue2/catalyst/flint

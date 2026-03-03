@@ -1,2 +1,2 @@
 playsound block.note_block.didgeridoo block
-return 0
+return 1

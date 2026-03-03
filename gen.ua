@@ -454,8 +454,8 @@ $$ }
   $$ }
   &fwa "data/chalc/tags/item/catalyst.json"
 | ⍚(⊃⊙⋅⋅⊙∘⋅⊙∘ °□₅
-    $$ execute if items entity @s weapon.mainhand _ run return run function chalc:imbue2/catalyst {offset:_,max:_,en:"_",name:"_"}
+    $$ execute if items entity @s weapon.mainhand _ run return run function chalc:imbue/catalyst {offset:_,max:_,en:"_",name:"_"}
   )
   ⊂"# This file is generated\n" /◇⊂₃@\n
-  &fwa "data/chalc/function/imbue2/try_enchantments.mcfunction"
+  &fwa "data/chalc/function/imbue/try_enchantments.mcfunction"
 )

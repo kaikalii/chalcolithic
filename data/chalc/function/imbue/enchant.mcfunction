@@ -1,5 +1,5 @@
 execute store result score @s chalc.levels run xp query @s levels
-$execute unless score @s chalc.levels matches $(level).. run return run function chalc:imbue2/not_enough_levels {level:$(level)}
+$execute unless score @s chalc.levels matches $(level).. run return run function chalc:imbue/not_enough_levels {level:$(level)}
 
 $xp add @s -$(level) levels
 item modify entity @s weapon.mainhand {function:"set_count",count:-1,add:true}

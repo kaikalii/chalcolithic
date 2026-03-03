@@ -1,1 +1,0 @@
-$function chalc:imbue/add_if {f:"if biome ~ ~ ~ $(biome)",enchant:$(enchant), req:$(req), level:$(level), chance:$(chance)}

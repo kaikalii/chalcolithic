@@ -1,4 +1,5 @@
 scoreboard objectives add chalc dummy
+scoreboard objectives add chalc.levels dummy
 
 # Numbers
 scoreboard players set #neg1 chalc -1
@@ -12,7 +13,6 @@ scoreboard players set #2032 chalc 2032
 scoreboard objectives add chalc.on_ground dummy
 execute as @a store result score @s chalc.on_ground run data get entity @s OnGround
 
-function chalc:imbue/load
 function chalc:repair/load
 function chalc:bucket/load
 function chalc:fill/load

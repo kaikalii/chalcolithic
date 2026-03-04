@@ -8,3 +8,4 @@
 - Uses for pitcher pod and torch flower
 - Add remaining pot effects
 - Autofill pots
+- Sherd duplication

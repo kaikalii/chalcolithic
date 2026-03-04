@@ -3,15 +3,15 @@
 | Danger     | Desert Pyramid   | Make nearby creepers not attack       | 1     | Range                   | Desert Pyramid   |
 | Miner      | Desert Pyramid   | AoE Haste on players                  | 4     | Range then Strength     |                  |
 | Mourner    | Desert Pyramid   |                                       | 1     |                         | Ancient City     |
-| Prize      | Desert Pyramid   |                                       | 1     |                         |                  |
-| Arms Up    | Desert Well      |                                       | 1     |                         | End City         |
+| Prize      | Desert Pyramid   | Attract nearby items                  | 1     | Range                   |                  |
+| Arms Up    | Desert Well      | Levitate entities in a column         | 1     | Height                  | End City         |
 | Brewer     | Desert Well      |                                       | 1     |                         | Fortress         |
 | Angler     | Warm Ocean Ruins | Start rain                            | 1     | Rain then Thunder       |                  |
 | Shelter    | Warm Ocean Ruins | Spawn shelter when broken             | 1     | Wall, Hut, Tower        |                  |
 | Snort      | Warm Ocean Ruins | Find structures                       | 1     | Depends on other sherds |                  |
 | Blade      | Cold Ocean Ruins | AoE Strength on players               | 4     | Strength                |                  |
 | Explorer   | Cold Ocean Ruins | AoE Speed on players                  | 2     | Strength then Range     | Shipwreck        |
-| Plenty     | Cold Ocean Ruins | Attract nearby items                  | 1     | Range                   | Bastion Remnant  |
+| Plenty     | Cold Ocean Ruins | *Distribute Items*                    | 1     |                         | Bastion Remnant  |
 | Archer     | Trail Ruins      | Large AoE Glowing on all entities     | 2     | Range                   |                  |
 | Burn       | Trail Ruins      |                                       | 1     |                         |                  |
 | Friend     | Trail Ruins      |                                       | 1     |                         | Village          |

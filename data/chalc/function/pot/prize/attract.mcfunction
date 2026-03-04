@@ -8,9 +8,9 @@ scoreboard players operation #inner_y chalc %= #100 chalc
 execute as @s[nbt={OnGround:1b}] if score #inner_y chalc matches 85.. align y run tp ~ ~1.1 ~
 
 # Calc distances
-execute store result score #x chalc run scoreboard players get #plenty_x chalc
-execute store result score #y chalc run scoreboard players get #plenty_y chalc
-execute store result score #z chalc run scoreboard players get #plenty_z chalc
+execute store result score #x chalc run scoreboard players get #prize_x chalc
+execute store result score #y chalc run scoreboard players get #prize_y chalc
+execute store result score #z chalc run scoreboard players get #prize_z chalc
 
 scoreboard players operation #x chalc -= #my_x chalc
 scoreboard players operation #y chalc -= #my_y chalc

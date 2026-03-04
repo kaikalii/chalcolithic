@@ -1,0 +1,2 @@
+$execute positioned ~ ~$(y) ~ as @e[distance=..2] run function chalc:pot/arms_up/apply_entity with storage chalc:macro arms_up
+$execute positioned ~ ~$(y) ~ as @e[type=item,distance=..2] run function chalc:pot/arms_up/apply_item

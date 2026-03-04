@@ -9,7 +9,7 @@ execute if data entity @s data.friend run function chalc:pot/snort/show_village
 # execute if data entity @s data.guster run function chalc:pot/snort/show_trial_chambers
 execute if data entity @s data.heartbreak run function chalc:pot/snort/show_cold_ocean_ruins
 execute if data entity @s data.mourner run function chalc:pot/snort/show_ancient_city
-execute if data entity @s data.plenty run function chalc:pot/snort/show_bastion_remnant
+execute if data entity @s data.prize run function chalc:pot/snort/show_bastion_remnant
 execute if data entity @s data.sheaf run function chalc:pot/snort/show_warm_ocean_ruins
 
 execute if score #showed_direction chalc matches 0 run function chalc:pot/snort/show_trail_ruins

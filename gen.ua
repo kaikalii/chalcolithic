@@ -68,7 +68,6 @@ $$ {
 $$   "pack": {
 $$     "description": "Lowering of Minecraft's tech level",
 $$     "pack\_format": 94,
-$$     "supported\_formats": [48, 94],
 $$     "max\_format": 94,
 $$     "min\_format": 48
 $$   },
@@ -418,7 +417,7 @@ $$ }
   {"fermented_spider_eye" "bane_of_arthropods" "Bane of Arthropods" 0 6}
   {"#chalc:scutes" En "blast_protection" 0 4}
   {"nether_wart" En "channeling" 0 1}
-  {"spider_eye" "chalc:darksight" "Darksight" 0 1}
+  {"glow_ink_sac" "chalc:darksight" "Darksight" 0 1}
   {"nether_brick" En "density" 0 6}
   {"prismarine_crystals" En "depth_strider" 0 3}
   {"gunpowder" En "efficiency" 0 6}
@@ -428,16 +427,20 @@ $$ }
   {"blaze_powder" En "flame" 0 1}
   {"glowstone_dust" En "fortune" 1 3}
   {"pointed_dripstone" En "impaling" 0 1}
+  {"breeze_rod" En "knockback" 0 2}
   {"bone" En "looting" 1 3}
-  {"glow_ink_sac" En "loyalty" 1 3}
+  {"echo_shard" En "loyalty" 1 3}
   {"heart_of_the_sea" "luck_of_the_sea" "Luck of the Sea" 0 3}
   {"phantom_membrane" En "lunge" 0 3}
   {"honeycomb" En "lure" 0 3}
+  {"prismarine_shard" En "multishot" 0 1}
   {"amethyst_shard" En "piercing" 0 4}
   {"string" En "power" 0 6}
   {"leather" En "projectile_protection" 0 4}
   {"brick" En "protection" 0 4}
+  {"wind_charge" En "punch" 0 2}
   {"nautilus_shell" En "respiration" 0 3}
+  {"ink_sac" En "riptide" 0 3}
   {"flint" En "sharpness" 0 6}
   {"slime_ball" En "silk_touch" 1 1}
   {"sugar" En "smite" 0 6}

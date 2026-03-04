@@ -11,6 +11,7 @@ function chalc:pot/sherd/explorer
 function chalc:pot/sherd/flow
 function chalc:pot/sherd/heart
 function chalc:pot/sherd/miner
+function chalc:pot/sherd/plenty
 function chalc:pot/sherd/prize
 function chalc:pot/sherd/scrape
 function chalc:pot/sherd/sheaf

@@ -1,0 +1,2 @@
+execute store result score #distributed chalc run function chalc:pot/plenty/distribute
+execute if score #distributed chalc matches 1 run function chalc:pot/plenty/remove with storage chalc:macro plenty

@@ -11,7 +11,7 @@
 | Snort      | Warm Ocean Ruins | Find structures                       | 1     | Depends on other sherds |                  |
 | Blade      | Cold Ocean Ruins | AoE Strength on players               | 4     | Strength                |                  |
 | Explorer   | Cold Ocean Ruins | AoE Speed on players                  | 2     | Strength then Range     | Shipwreck        |
-| Plenty     | Cold Ocean Ruins |                                       | 1     |                         | Bastion Remnant  |
+| Plenty     | Cold Ocean Ruins | Attract nearby items                  | 1     | Range                   | Bastion Remnant  |
 | Archer     | Trail Ruins      | Large AoE Glowing on all entities     | 2     | Range                   |                  |
 | Burn       | Trail Ruins      |                                       | 1     |                         |                  |
 | Friend     | Trail Ruins      |                                       | 1     |                         | Village          |

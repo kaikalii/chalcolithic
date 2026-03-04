@@ -6,6 +6,9 @@ scoreboard players set #neg1 chalc -1
 scoreboard players set #0 chalc 0
 scoreboard players set #20 chalc 20
 scoreboard players set #32 chalc 32
+scoreboard players set #50 chalc 50
+scoreboard players set #100 chalc 100
+scoreboard players set #120 chalc 120
 scoreboard players set #2032 chalc 2032
 
 # Player on ground tracking

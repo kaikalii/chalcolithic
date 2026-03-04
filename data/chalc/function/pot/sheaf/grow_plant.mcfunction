@@ -15,6 +15,22 @@ execute if block ~ ~ ~ acacia_sapling[stage=1] run return run function chalc:pot
 execute if block ~ ~ ~ dark_oak_sapling[stage=1] run return run function chalc:pot/sheaf/grow_sapling {tree:dark_oak}
 execute if block ~ ~ ~ pale_oak_sapling[stage=1] run return run function chalc:pot/sheaf/grow_sapling {tree:pale_oak}
 execute if block ~ ~ ~ cherry_sapling[stage=1] run return run function chalc:pot/sheaf/grow_sapling {tree:cherry}
+execute if block ~ ~ ~ sugar_cane[age=0] run return run setblock ~ ~ ~ sugar_cane[age=1]
+execute if block ~ ~ ~ sugar_cane[age=1] run return run setblock ~ ~ ~ sugar_cane[age=2]
+execute if block ~ ~ ~ sugar_cane[age=2] run return run setblock ~ ~ ~ sugar_cane[age=3]
+execute if block ~ ~ ~ sugar_cane[age=3] run return run setblock ~ ~ ~ sugar_cane[age=4]
+execute if block ~ ~ ~ sugar_cane[age=4] run return run setblock ~ ~ ~ sugar_cane[age=5]
+execute if block ~ ~ ~ sugar_cane[age=5] run return run setblock ~ ~ ~ sugar_cane[age=6]
+execute if block ~ ~ ~ sugar_cane[age=6] run return run setblock ~ ~ ~ sugar_cane[age=7]
+execute if block ~ ~ ~ sugar_cane[age=7] run return run setblock ~ ~ ~ sugar_cane[age=8]
+execute if block ~ ~ ~ sugar_cane[age=8] run return run setblock ~ ~ ~ sugar_cane[age=9]
+execute if block ~ ~ ~ sugar_cane[age=9] run return run setblock ~ ~ ~ sugar_cane[age=10]
+execute if block ~ ~ ~ sugar_cane[age=10] run return run setblock ~ ~ ~ sugar_cane[age=11]
+execute if block ~ ~ ~ sugar_cane[age=11] run return run setblock ~ ~ ~ sugar_cane[age=12]
+execute if block ~ ~ ~ sugar_cane[age=12] run return run setblock ~ ~ ~ sugar_cane[age=13]
+execute if block ~ ~ ~ sugar_cane[age=13] run return run setblock ~ ~ ~ sugar_cane[age=14]
+execute if block ~ ~ ~ sugar_cane[age=14] run return run setblock ~ ~ ~ sugar_cane[age=15]
+execute if block ~ ~ ~ sugar_cane[age=15] if block ~ ~1 ~ air run return run setblock ~ ~1 ~ sugar_cane
 execute if block ~ ~ ~ wheat[age=0] run return run setblock ~ ~ ~ wheat[age=1]
 execute if block ~ ~ ~ wheat[age=1] run return run setblock ~ ~ ~ wheat[age=2]
 execute if block ~ ~ ~ wheat[age=2] run return run setblock ~ ~ ~ wheat[age=3]

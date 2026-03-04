@@ -4,9 +4,9 @@
         "carrots",
         "potatoes",
         "beetroots",
-        "melon_stem",
-        "pumpkin_stem",
-        "#minecraft:saplings",
-        "sugar_cane"
+        "melon",
+        "pumpkin",
+        "sugar_cane",
+        "bamboo"
     ]
 }

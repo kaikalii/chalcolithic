@@ -318,11 +318,11 @@ $$ }
     | ⍚˙$"execute if block ~ ~ ~ _\_sapling[stage=1] run return run function chalc:pot/sheaf/grow\_sapling {tree:_}")
   )
   (
-    ⍉⊟⤙+1 ⇡3
-    {"beetroots"}
-    ⍉⊟⤙+1 ⇡7
-    {"wheat" "carrots" "potatoes" "melon_stem" "pumpkin_stem"}
-    ∩(♭⊞(□$"execute if block ~ ~ ~ _[age=_] run return run setblock ~ ~ ~ _[age=_]" ⊃⊙⊢⊙⊣))
+    {"beetroots"} ⍉⊟⤙+1 ⇡3
+    {"wheat" "carrots" "potatoes" "melon_stem" "pumpkin_stem"} ⍉⊟⤙+1 ⇡7
+    {"sugar_cane"} ⍉⊟⤙+1 ⇡15
+    ∩₃(♭⊞(□$"execute if block ~ ~ ~ _[age=_] run return run setblock ~ ~ ~ _[age=_]" ⊃⊙⊢⊙⊣))
+    ˜⊂□"execute if block ~ ~ ~ sugar_cane[age=15] if block ~ ~1 ~ air run return run setblock ~ ~1 ~ sugar_cane"
   )
 }
 ⊂□"particle composter ~ ~0.2 ~ 0.2 0.2 0.2 0 3"

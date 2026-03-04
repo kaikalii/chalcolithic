@@ -18,10 +18,10 @@
 | Heart      | Trail Ruins      | AoE Regeneration on players           | 8     | Strength                |                  |
 | Heartbreak | Trail Ruins      |                                       | 1     |                         | Cold Ocean Ruins |
 | Howl       | Trail Ruins      |                                       | 1     |                         |                  |
-| Sheaf      | Trail Ruins      | Grow nearby plants                    | 5     | Range and Frequency     | Warm Ocean Ruins |
+| Sheaf      | Trail Ruins      | Plant or grow nearby plants           | 4     | Range and Frequency     | Warm Ocean Ruins |
 | Flow       | Trial Chambers   | Spawn water                           | 1     | None                    |                  |
 | Guster     | Trial Chambers   |                                       | 1     |                         |                  |
-| Scrape     | Trial Chambers   |                                       | 1     |                         |                  |
+| Scrape     | Trial Chambers   | Harvest nearby plants                 | 4     | Range and Frequency     |                  |
 | Skull      | Bastion Remnant  | Convert golden equipment to netherite | 2     | Range                   |                  |
 
 ¹ Speed at which the sherd burns fuel. A pot with a single sherd of cost 1 burns for a whole minecraft day/night cycle. A cost of 2 burns for half the time. Costs of multiple sherds are additive.

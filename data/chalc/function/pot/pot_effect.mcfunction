@@ -10,6 +10,7 @@ function chalc:pot/sherd/explorer
 function chalc:pot/sherd/flow
 function chalc:pot/sherd/heart
 function chalc:pot/sherd/miner
+function chalc:pot/sherd/scrape
 function chalc:pot/sherd/sheaf
 function chalc:pot/sherd/skull
 function chalc:pot/sherd/snort

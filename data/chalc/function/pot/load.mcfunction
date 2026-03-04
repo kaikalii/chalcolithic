@@ -20,8 +20,8 @@ scoreboard players set #miner_sherd_cost chalc 4
 scoreboard players set #mourner_sherd_cost chalc 1
 scoreboard players set #plenty_sherd_cost chalc 1
 scoreboard players set #prize_sherd_cost chalc 1
-scoreboard players set #scrape_sherd_cost chalc 1
-scoreboard players set #sheaf_sherd_cost chalc 5
+scoreboard players set #scrape_sherd_cost chalc 4
+scoreboard players set #sheaf_sherd_cost chalc 4
 scoreboard players set #shelter_sherd_cost chalc 1
 scoreboard players set #skull_sherd_cost chalc 2
 scoreboard players set #snort_sherd_cost chalc 1

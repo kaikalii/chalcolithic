@@ -7,5 +7,4 @@
   - Aesthetic
 - Uses for pitcher pod and torch flower
 - Add remaining pot effects
-- Automated farm mechanics
-  - Auto-cut bamboo and sugar-cane
+- Autofill pots

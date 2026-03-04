@@ -33,8 +33,8 @@ function chalc:pot/count_effect {sherd:snort}
 # Determine cost
 scoreboard players set @s chalc.pot_fuel_time 1200
 scoreboard players operation @s chalc.pot_fuel_time /= #sherd_cost chalc
-tellraw @a [{score:{name:"#sherd_cost",objective:"chalc"}}]
-tellraw @a [{score:{name:"@s",objective:"chalc.pot_fuel_time"}}]
+# tellraw @a [{score:{name:"#sherd_cost",objective:"chalc"}}]
+# tellraw @a [{score:{name:"@s",objective:"chalc.pot_fuel_time"}}]
 
 function chalc:pot/consume_fuel
 function chalc:pot/update_node_text

@@ -1,1 +1,0 @@
-scoreboard players set @e[type=marker,tag=enchantment_node] chalc.node_timer 1

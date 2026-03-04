@@ -4,20 +4,8 @@ execute if block ~ ~ ~ decorated_pot[facing=west] run tp @s ~ ~ ~ 90 0
 execute if block ~ ~ ~ decorated_pot[facing=north] run tp @s ~ ~ ~ 180 0
 execute if block ~ ~ ~ decorated_pot[facing=east] run tp @s ~ ~ ~ 270 0
 
-# Count number of bricks vs non-bricks to determine cost
-scoreboard players set #non_bricks chalc 4 
-data modify storage chalc:macro sherd set from block ~ ~ ~ sherds[0]
-execute if data storage chalc:macro {sherd:"minecraft:brick"} run scoreboard players remove #non_bricks chalc 1
-data modify storage chalc:macro sherd set from block ~ ~ ~ sherds[1]
-execute if data storage chalc:macro {sherd:"minecraft:brick"} run scoreboard players remove #non_bricks chalc 1
-data modify storage chalc:macro sherd set from block ~ ~ ~ sherds[2]
-execute if data storage chalc:macro {sherd:"minecraft:brick"} run scoreboard players remove #non_bricks chalc 1
-data modify storage chalc:macro sherd set from block ~ ~ ~ sherds[3]
-execute if data storage chalc:macro {sherd:"minecraft:brick"} run scoreboard players remove #non_bricks chalc 1
-scoreboard players set @s chalc.pot_fuel_time 30
-scoreboard players operation @s chalc.pot_fuel_time /= #non_bricks chalc
-
 # Count sherds
+scoreboard players set #sherd_cost chalc 0
 function chalc:pot/count_effect {sherd:angler}
 function chalc:pot/count_effect {sherd:archer}
 function chalc:pot/count_effect {sherd:arms_up}
@@ -41,6 +29,12 @@ function chalc:pot/count_effect {sherd:sheaf}
 function chalc:pot/count_effect {sherd:shelter}
 function chalc:pot/count_effect {sherd:skull}
 function chalc:pot/count_effect {sherd:snort}
+
+# Determine cost
+scoreboard players set @s chalc.pot_fuel_time 1200
+scoreboard players operation @s chalc.pot_fuel_time /= #sherd_cost chalc
+tellraw @a [{score:{name:"#sherd_cost",objective:"chalc"}}]
+tellraw @a [{score:{name:"@s",objective:"chalc.pot_fuel_time"}}]
 
 function chalc:pot/consume_fuel
 function chalc:pot/update_node_text

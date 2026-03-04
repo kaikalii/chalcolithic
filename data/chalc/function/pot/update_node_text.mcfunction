@@ -6,5 +6,5 @@ execute if items block ~ ~ ~ contents iron_ingot store result score #time_left c
 scoreboard players operation #time_left chalc *= @s chalc.pot_fuel_time
 scoreboard players operation #time_left chalc += @s chalc.pot_fuel_time
 scoreboard players operation #time_left chalc -= @s chalc.pot_timer
-execute store result storage chalc:macro text int 1 run scoreboard players get #time_left chalc
+execute store result storage chalc:macro text int 0.5 run scoreboard players get #time_left chalc
 function chalc:pot/set_node_text with storage chalc:macro

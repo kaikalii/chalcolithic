@@ -6,6 +6,32 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:snort_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snort_pottery_sherd",
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "inverted",
+              "term": {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "player",
+                    "advancements": {
+                      "chalc:snort": true
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:burn_pottery_sherd"
         },
         {

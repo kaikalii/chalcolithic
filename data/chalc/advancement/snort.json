@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "has_snort": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:snort_pottery_sherd"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,5 +1,6 @@
-| Sherd      | Location         | Effect                                | Cost¹ | Scaling                 | Snort leads to   |
+| Sherd      | Location         | Effect                                | Cost² | Scaling                 | Snort leads to   |
 | ---------- | ---------------- | ------------------------------------- | ----- | ----------------------- | ---------------- |
+| Snort      | All¹             | Find structures                       | 1     | Depends on other sherds |                  |
 | Danger     | Desert Pyramid   | Make nearby creepers not attack       | 1     | Range                   | Desert Pyramid   |
 | Miner      | Desert Pyramid   | AoE Haste on players                  | 4     | Range then Strength     |                  |
 | Mourner    | Desert Pyramid   |                                       | 1     |                         | Ancient City     |
@@ -8,7 +9,6 @@
 | Brewer     | Desert Well      |                                       | 1     |                         | Fortress         |
 | Angler     | Warm Ocean Ruins | Start rain                            | 1     | Rain then Thunder       |                  |
 | Shelter    | Warm Ocean Ruins | Spawn shelter when broken             | 1     | Wall, Hut, Tower        |                  |
-| Snort      | Warm Ocean Ruins | Find structures                       | 1     | Depends on other sherds |                  |
 | Blade      | Cold Ocean Ruins | AoE Strength on players               | 4     | Strength                |                  |
 | Explorer   | Cold Ocean Ruins | AoE Speed on players                  | 2     | Strength then Range     | Shipwreck        |
 | Plenty     | Cold Ocean Ruins | *Distribute Items*                    | 1     |                         | Bastion Remnant  |
@@ -17,11 +17,12 @@
 | Friend     | Trail Ruins      |                                       | 1     |                         | Village          |
 | Heart      | Trail Ruins      | AoE Regeneration on players           | 8     | Strength                |                  |
 | Heartbreak | Trail Ruins      |                                       | 1     |                         | Cold Ocean Ruins |
-| Howl       | Trail Ruins      |                                       | 1     |                         |                  |
+| Howl       | Trail Ruins      | *Empower wolves and deflect arrows*   | 1     |                         |                  |
 | Sheaf      | Trail Ruins      | Plant or grow nearby plants           | 4     | Range and Frequency     | Warm Ocean Ruins |
 | Flow       | Trial Chambers   | Spawn water                           | 1     | None                    |                  |
 | Guster     | Trial Chambers   |                                       | 1     |                         |                  |
 | Scrape     | Trial Chambers   | Harvest nearby plants                 | 4     | Range and Frequency     |                  |
 | Skull      | Bastion Remnant  | Convert golden equipment to netherite | 2     | Range                   |                  |
 
-¹ Speed at which the sherd burns fuel. A pot with a single sherd of cost 1 burns for a whole minecraft day/night cycle. A cost of 2 burns for half the time. Costs of multiple sherds are additive.
+1) More common for players that have never found one
+2) Speed at which the sherd burns fuel. A pot with a single sherd of cost 1 burns for a whole minecraft day/night cycle. A cost of 2 burns for half the time. Costs of multiple sherds are additive.

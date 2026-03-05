@@ -462,3 +462,25 @@ $$ }
   ⊂"# This file is generated\n" /◇⊂₃@\n
   &fwa "data/chalc/function/imbue/try_enchantments.mcfunction"
 )
+
+# Distribute fuel
+♭₂⧋-⟜(⇡+1×2) 5_1_5
+⊏⍏⊸(⧋/+⌵) ▽⊸(>0+⊃⊢⊣°⍉⌵)
+⊃(⍚($"execute positioned ~_ ~_ ~_ if function chalc:pot/plenty/distribute\_furnace run return 1"°⊟₃)
+  ⊂{"# This file is generated"
+    "data modify storage chalc:macro plenty.Slot set value 1b"}
+  ˜⊂□"return 0"
+  /◇⊂₃ @\n
+  &fwa "data/chalc/function/pot/plenty/distribute_furnaces.mcfunction"
+| ⍚($"execute positioned ~_ ~_ ~_ if function chalc:pot/plenty/distribute\_brewing\_stand run return 1"°⊟₃)
+  ⊂{"# This file is generated"
+    "data modify storage chalc:macro plenty.Slot set value 4b"}
+  ˜⊂□"return 0"
+  /◇⊂₃ @\n
+  &fwa "data/chalc/function/pot/plenty/distribute_brewing_stands.mcfunction"
+| ⍚($"execute positioned ~_ ~_ ~_ if function chalc:pot/plenty/distribute\_lapis\_block run return 1"°⊟₃)
+  ⊂□"# This file is generated"
+  ˜⊂□"return 0"
+  /◇⊂₃ @\n
+  &fwa "data/chalc/function/pot/plenty/distribute_lapis_blocks.mcfunction"
+)

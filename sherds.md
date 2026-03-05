@@ -11,7 +11,7 @@
 | Shelter    | Warm Ocean Ruins | Spawn shelter when broken             | 1     | Wall, Hut, Tower        |                  |
 | Blade      | Cold Ocean Ruins | AoE Strength on players               | 4     | Strength                |                  |
 | Explorer   | Cold Ocean Ruins | AoE Speed on players                  | 2     | Strength then Range     | Shipwreck        |
-| Plenty     | Cold Ocean Ruins | *Distribute Items*                    | 1     |                         | Bastion Remnant  |
+| Plenty     | Cold Ocean Ruins | Distribute fuel³                      | 1     |                         | Bastion Remnant  |
 | Archer     | Trail Ruins      | Large AoE Glowing on all entities     | 2     | Range                   |                  |
 | Burn       | Trail Ruins      |                                       | 1     |                         |                  |
 | Friend     | Trail Ruins      |                                       | 1     |                         | Village          |
@@ -26,3 +26,4 @@
 
 1) More common for players that have never found one
 2) Speed at which the sherd burns fuel. A pot with a single sherd of cost 1 burns for a whole minecraft day/night cycle. A cost of 2 burns for half the time. Costs of multiple sherds are additive.
+3) Distributes fuel from the contain below to nearby pots, furnaces, brewing stands, and imbuing altars. Imbuing altars must have an extra gold block below the lapis to be refueled

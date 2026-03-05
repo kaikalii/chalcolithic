@@ -1,0 +1,1 @@
+execute as @e[type=arrow,tag=!deflected,nbt={inGround:0b}] at @s run function chalc:pot/howl/arrow

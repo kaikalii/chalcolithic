@@ -15,7 +15,7 @@ scoreboard players set #friend_sherd_cost chalc 1
 scoreboard players set #guster_sherd_cost chalc 1
 scoreboard players set #heart_sherd_cost chalc 5
 scoreboard players set #heartbreak_sherd_cost chalc 1
-scoreboard players set #howl_sherd_cost chalc 1
+scoreboard players set #howl_sherd_cost chalc 4
 scoreboard players set #miner_sherd_cost chalc 4
 scoreboard players set #mourner_sherd_cost chalc 1
 scoreboard players set #plenty_sherd_cost chalc 1

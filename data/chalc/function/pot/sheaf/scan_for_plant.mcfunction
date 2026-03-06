@@ -1,4 +1,4 @@
-execute if score #tries chalc matches 0 if function chalc:random/2 run return 0
+execute if score #tries chalc matches 0 unless function chalc:random/3 run return 0
 execute if score #tries chalc matches 20.. run return 0
 
 $execute store result storage chalc:macro grow.dx int 1 run random value -$(range)..$(range)

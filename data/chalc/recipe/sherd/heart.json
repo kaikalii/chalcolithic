@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "heart_pottery_sherd",
+        "clay_ball",
+        "glistering_melon",
+        "diamond"
+    ],
+    "group": "sherd_duplication",
+    "result": {
+        "id": "heart_pottery_sherd",
+        "count": 2
+    }
+}

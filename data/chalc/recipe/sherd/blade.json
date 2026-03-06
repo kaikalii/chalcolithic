@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "blade_pottery_sherd",
+        "clay_ball",
+        "blaze_powder",
+        "diamond"
+    ],
+    "group": "sherd_duplication",
+    "result": {
+        "id": "blade_pottery_sherd",
+        "count": 2
+    }
+}

@@ -12,6 +12,7 @@ High-temperature metallurgy is a lost art, and neither the player nor villagers 
   - Many smelting recipes require a **blast furnace**, which has a new recipe itself
   - Crafting changes mean that **copper is king**
 - **Overhauled the enchanting system** to be less random and require different items for different enchantments
+- A lot of automation that would utilize pistons or hoppers is replaced with a system that emphasizes archaeology
 - **Buckets are nerfed**. The source blocks they place quickly disappear.
 - Much more!
 
@@ -19,7 +20,9 @@ The recipe book will help you with new recipes! Advancements are also tweaked to
 
 # Full List of Changes
 
-## Removed Recipes
+## Crafting
+
+### Removed Recipes
 
 While these recipes are removed, most of the blocks and items can still be found via natural generation and loot. The items are also removed from villager and wandering trader trades.
 
@@ -36,7 +39,7 @@ While these recipes are removed, most of the blocks and items can still be found
 - Crafter
 - Enchanting Table
 
-## Modified Recipes
+### Modified Recipes
 
 - Stone tools and furnaces now require polished versions of stone types, rather than cobbled
 - Raw copper and gold smelt into nuggets rather than ingots, and they require a blast furnace
@@ -71,7 +74,7 @@ While these recipes are removed, most of the blocks and items can still be found
   - Cauldron
   - Books
 
-## Added Recipes
+### Added Recipes
 
 - String from wool or carpets. Has diminishing returns.
 - Water bottles can be freely crafted to and from splash water bottles. These can be used to extinguish fires but cannot be used in brewing recipes for other splash potions.
@@ -81,10 +84,35 @@ While these recipes are removed, most of the blocks and items can still be found
   - Must be crafted from the same wool color
   - +4 armor total from a full set (compared to +7 from full leather)
 
-## Non-Violence
-- "Leather" can be crafted from paper layered with a binding agent
-- Chickens occasionally drop feathers
-- Fish can be thrown back for a while after being caught
+## Enchanting
+
+- Rather than at an enchanting table, all enchanting is now done through items *imbued* with enchantments (including enchanted books)
+- Certain *enchantment catalyst* items can be imbued at an *enchanting altar*
+  - The altar is constructed from a single block of lapis lazuli surrounded by gold, diamond, or netherite blocks
+  - More valuable surrounding blocks increase the power of enchantments
+  - Imbuing is carried out by holding a catalyst in the main hand and jumping on the lapis block
+  - Imbuing a catalyst costs a few levels
+  - There is a chance the lapis block will be destroyed, with stronger enchantments increasing the chance
+  - You can find a full list of enchantments and their catalysts [here](https://github.com/kaikalii/chalcolithic/blob/main/enchantments.md)
+- Imbued catalysts and enchanted books can be applied to equipment by holding the imbued item in one hand and the equipment in the other and using the imbued item. Armor must be held in the offhand to avoid equipping it instead.
+  - This does not work on diamond or netherite gear.
+  - Mending cannot be applied to elytra
+  - Golden equipment has a high chance to increase the level of enchantments applied to it by 1
+
+### New Enchantments
+- *Darksight* for helmets shows blocks that are dark enough for mobs to spawn
+
+## Pottery
+
+Pottery sherds are now magical. 
+- Decorated pots can be powered by placing raw iron blocks or iron ingots in them (a new sink for iron)
+- A powered pot produces effects depending on its sherds
+  - Some sherds provide simple AoE effects
+  - Some sherds help in combat, place or break blocks, or do other complex automation tasks
+- Some sherds burn fuel faster than others
+- Sherd rewards in loot tables have been moved around
+- Sherds can be duplicated with a crafting recipe
+- You can find a full list of sherd locations and effects [here](https://github.com/kaikalii/chalcolithic/blob/main/sherds.md)
 
 ## Other Changes
 
@@ -97,20 +125,6 @@ While these recipes are removed, most of the blocks and items can still be found
 ### Iron
 - Iron cannot be smelted in any way, but raw iron has some uses.
 - Iron golems are *clay* golems. They are made in the normal shape, but with clay blocks instead of iron blocks. The clay must be surrounded by mud. Clay golems drop clay balls instead of iron ingots.
-
-### Enchanting
-- Rather than at an enchanting table, all enchanting is now done through items *imbued* with enchantments (including enchanted books)
-- Certain *enchantment catalyst* items can be imbued at an *enchanting altar*
-  - The altar is constructed from a single block of lapis lazuli surrounded by gold, diamond, or netherite blocks
-  - More valuable surrounding blocks increase the power of enchantments
-  - Imbuing is carried out by holding a catalyst in the main hand and jumping on the lapis block
-  - Imbuing a catalyst costs a few levels
-  - There is a chance the lapis block will be destroyed, with stronger enchantments increasing the chance
-- Imbued catalysts and enchanted books can be applied to equipment by holding the imbued item in one hand and the equipment in the other and using the imbued item. Armor must be held in the offhand to avoid equipping it instead.
-  - This does not work on diamond or netherite gear.
-  - Mending cannot be applied to elytra
-  - Golden equipment has a high chance to increase the level of enchantments applied to it by 1
-- The new *Darksight* enchantment for helmets shows blocks that are dark enough for mobs to spawn
 
 ### Repairing
 - Equipment can be repaired by holding a corresponding repair material in one hand and the equipment in the other and holding down the use button. Armor must be held in the offhand to avoid equipping it instead.
@@ -137,6 +151,11 @@ While these recipes are removed, most of the blocks and items can still be found
   - TNT
   - Boats
 - Cookable items thrown onto campfires are automatically cooked
+
+### Non-Violence
+- "Leather" can be crafted from paper layered with a binding agent
+- Chickens occasionally drop feathers
+- Fish can be thrown back for a while after being caught
 
 ### Miscellaneous
 - Vines have a chance to drop without using shears

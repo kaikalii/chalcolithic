@@ -1,0 +1,31 @@
+{
+   "criteria": {
+       "has_sherd": {
+           "trigger": "inventory_changed",
+           "conditions": {
+               "items": [
+                   {
+                       "items": "skull_pottery_sherd"
+                   }
+               ]
+           }
+       },
+       "has_recipe": {
+           "trigger": "recipe_unlocked",
+           "conditions": {
+               "recipe": "chalc:sherd/skull"
+           }
+       }
+   },
+   "requirements": [
+       [
+           "has_recipe",
+           "has_sherd"
+       ]
+   ],
+   "rewards": {
+       "recipes": [
+           "chalc:sherd/skull"
+       ]
+   }
+}

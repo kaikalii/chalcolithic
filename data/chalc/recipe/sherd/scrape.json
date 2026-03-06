@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "scrape_pottery_sherd",
+        "clay_ball",
+        "flint",
+        "diamond"
+    ],
+    "group": "sherd_duplication",
+    "result": {
+        "id": "scrape_pottery_sherd",
+        "count": 2
+    }
+}

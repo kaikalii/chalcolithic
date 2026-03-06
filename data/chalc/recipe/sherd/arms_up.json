@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "arms_up_pottery_sherd",
+        "clay_ball",
+        "feather",
+        "diamond"
+    ],
+    "group": "sherd_duplication",
+    "result": {
+        "id": "arms_up_pottery_sherd",
+        "count": 2
+    }
+}

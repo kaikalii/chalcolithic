@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "prize_pottery_sherd",
+        "clay_ball",
+        "emerald",
+        "diamond"
+    ],
+    "group": "sherd_duplication",
+    "result": {
+        "id": "prize_pottery_sherd",
+        "count": 2
+    }
+}

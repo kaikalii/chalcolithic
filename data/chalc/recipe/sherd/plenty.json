@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "plenty_pottery_sherd",
+        "clay_ball",
+        "coal_block",
+        "diamond"
+    ],
+    "group": "sherd_duplication",
+    "result": {
+        "id": "plenty_pottery_sherd",
+        "count": 2
+    }
+}

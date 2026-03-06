@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "explorer_pottery_sherd",
+        "clay_ball",
+        "sugar",
+        "diamond"
+    ],
+    "group": "sherd_duplication",
+    "result": {
+        "id": "explorer_pottery_sherd",
+        "count": 2
+    }
+}

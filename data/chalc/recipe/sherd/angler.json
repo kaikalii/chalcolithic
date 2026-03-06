@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "angler_pottery_sherd",
+        "clay_ball",
+        "string",
+        "diamond"
+    ],
+    "group": "sherd_duplication",
+    "result": {
+        "id": "angler_pottery_sherd",
+        "count": 2
+    }
+}

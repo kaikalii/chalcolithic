@@ -8,4 +8,8 @@
 - Uses for pitcher pod and torch flower
 - Add remaining pot effects
   - Ranges for plenty sherd
-- Sherd duplication
+  - Make shelter build on fuel consumption instead of break
+- Make portals easier to make
+- Enforce enchantment restrictions
+- Make fueled pots break blocks
+- Make villagers trade catalysts instead of books

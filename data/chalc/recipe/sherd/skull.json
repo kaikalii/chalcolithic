@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "skull_pottery_sherd",
+        "clay_ball",
+        "wither_skeleton_skull",
+        "diamond"
+    ],
+    "group": "sherd_duplication",
+    "result": {
+        "id": "skull_pottery_sherd",
+        "count": 2
+    }
+}

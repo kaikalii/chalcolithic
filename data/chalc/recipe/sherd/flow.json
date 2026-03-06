@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "flow_pottery_sherd",
+        "clay_ball",
+        "water_bucket",
+        "diamond"
+    ],
+    "group": "sherd_duplication",
+    "result": {
+        "id": "flow_pottery_sherd",
+        "count": 2
+    }
+}

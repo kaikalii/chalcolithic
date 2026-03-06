@@ -170,7 +170,7 @@ MatTags MatGroups
     $$ {
     $$     "values": [
     $$         _
-    $$     ]  
+    $$     ]
     $$ }
   ))
 
@@ -483,4 +483,94 @@ $$ }
   ˜⊂□"return 0"
   /◇⊂₃ @\n
   &fwa "data/chalc/function/pot/plenty/distribute_lapis_blocks.mcfunction"
+)
+
+# Sherds
+[
+  {"angler" 1 "string"}
+  {"archer" 2 "golden_carrot"}
+  {"arms_up" 1 "feather"}
+  {"burn" 4 "barrier"}
+  {"blade" 1 "blaze_powder"}
+  {"brewer" 1 "barrier"}
+  {"danger" 1 "gunpowder"}
+  {"explorer" 2 "sugar"}
+  {"flow" 1 "water_bucket"}
+  {"friend" 1 "barrier"}
+  {"guster" 1 "barrier"}
+  {"heart" 5 "glistering_melon"}
+  {"heartbreak" 1 "barrier"}
+  {"howl" 4 "bone"}
+  {"miner" 4 "#stone_tool_materials"}
+  {"mourner" 1 "barrier"}
+  {"plenty" 1 "coal_block"}
+  {"prize" 1 "emerald"}
+  {"scrape" 4 "flint"}
+  {"sheaf" 4 "wheat"}
+  {"shelter" 1 "#terracotta"}
+  {"skull" 2 "wither_skeleton_skull"}
+  {"snort" 1 "ender_eye"}
+]
+≡(⊓(□|∘|□) °□₃)
+⊃(⍚($"scoreboard players set #_\_sherd\_cost chalc _")
+  ⊂{
+    "# This file is generated"
+    "scoreboard objectives add chalc.pot_timer dummy"
+    "scoreboard objectives add chalc.pot_fuel_time dummy"
+    ""
+    "# Costs"
+  }
+  /◇⊂₃ @\n
+  &fwa "data/chalc/function/pot/load.mcfunction"
+| ⍚⊃(
+    ⊃⊙⋅∘∘
+    &fwa $"data/chalc/recipe/sherd/_.json"⤙(
+      $$ {
+      $$     "type": "crafting\_shapeless",
+      $$     "ingredients": [
+      $$         "_\_pottery\_sherd",
+      $$         "clay\_ball",
+      $$         "_",
+      $$         "diamond"
+      $$     ],
+      $$     "group": "sherd\_duplication",
+      $$     "result": {
+      $$         "id": "_\_pottery\_sherd",
+      $$         "count": 2
+      $$     }
+      $$ }
+    )
+  | &fwa $"data/chalc/advancement/recipe/sherd/_.json"⟜˙(
+      $$ {
+      $$    "criteria": {
+      $$        "has\_sherd": {
+      $$            "trigger": "inventory\_changed",
+      $$            "conditions": {
+      $$                "items": [
+      $$                    {
+      $$                        "items": "_\_pottery\_sherd"
+      $$                    }
+      $$                ]
+      $$            }
+      $$        },
+      $$        "has\_recipe": {
+      $$            "trigger": "recipe\_unlocked",
+      $$            "conditions": {
+      $$                "recipe": "chalc:sherd/_"
+      $$            }
+      $$        }
+      $$    },
+      $$    "requirements": [
+      $$        [
+      $$            "has\_recipe",
+      $$            "has\_sherd"
+      $$        ]
+      $$    ],
+      $$    "rewards": {
+      $$        "recipes": [
+      $$            "chalc:sherd/_"
+      $$        ]
+      $$    }
+      $$ }
+    ))
 )

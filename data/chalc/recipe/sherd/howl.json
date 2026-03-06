@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "howl_pottery_sherd",
+        "clay_ball",
+        "bone",
+        "diamond"
+    ],
+    "group": "sherd_duplication",
+    "result": {
+        "id": "howl_pottery_sherd",
+        "count": 2
+    }
+}

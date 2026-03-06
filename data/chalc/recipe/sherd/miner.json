@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "miner_pottery_sherd",
+        "clay_ball",
+        "#stone_tool_materials",
+        "diamond"
+    ],
+    "group": "sherd_duplication",
+    "result": {
+        "id": "miner_pottery_sherd",
+        "count": 2
+    }
+}

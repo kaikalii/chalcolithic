@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "guster_pottery_sherd",
+        "clay_ball",
+        "barrier",
+        "diamond"
+    ],
+    "group": "sherd_duplication",
+    "result": {
+        "id": "guster_pottery_sherd",
+        "count": 2
+    }
+}

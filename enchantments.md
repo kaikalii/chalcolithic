@@ -1,4 +1,4 @@
-| Enchantment           | Item                 |
+| Enchantment           | Catalyst             |
 | --------------------- | -------------------- |
 | Aqua Affinity         |                      |
 | Bane of Arthropods    | Fermented Spider Eye |
@@ -14,7 +14,7 @@
 | Fire Protection       | Magma Cream          |
 | Flame                 | Blaze Powder         |
 | Fortune               | Glowstone Dust       |
-| Frost Walker          | Treasure Only        |
+| Frost Walker          | *Treasure Only*      |
 | Impaling              | Pointed Dripstone    |
 | Infinity              |                      |
 | Knockback             | Breeze Rod           |
@@ -23,7 +23,7 @@
 | Luck of the Sea       | Heart of the Sea     |
 | Lunge                 | Phantom Membrane     |
 | Lure                  | Honeycomb            |
-| Mending               | Treasure Only        |
+| Mending               | *Treasure Only*      |
 | Multishot             | Prismarine Shard     |
 | Piercing              | Amethyst Shard       |
 | Power                 | String               |
@@ -36,11 +36,11 @@
 | Sharpness             | Flint                |
 | Silk Touch            | Slimeball            |
 | Smite                 | Sugar                |
-| Soul Speed            | Treasure Only        |
+| Soul Speed            | *Treasure Only*      |
 | Sweeping Edge         | Quartz               |
-| Swift Sneak           | Treasure Only        |
+| Swift Sneak           | *Treasure Only*      |
 | Thorns                | Cactus               |
-| Wind Burst            | Treasure Only        |
+| Wind Burst            | *Treasure Only*      |
 | Unbreaking            | Clay Ball            |
 
 \* Added by the mod

@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "mourner_pottery_sherd",
+        "clay_ball",
+        "barrier",
+        "diamond"
+    ],
+    "group": "sherd_duplication",
+    "result": {
+        "id": "mourner_pottery_sherd",
+        "count": 2
+    }
+}

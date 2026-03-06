@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "shelter_pottery_sherd",
+        "clay_ball",
+        "#terracotta",
+        "diamond"
+    ],
+    "group": "sherd_duplication",
+    "result": {
+        "id": "shelter_pottery_sherd",
+        "count": 2
+    }
+}

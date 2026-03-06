@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "snort_pottery_sherd",
+        "clay_ball",
+        "ender_eye",
+        "diamond"
+    ],
+    "group": "sherd_duplication",
+    "result": {
+        "id": "snort_pottery_sherd",
+        "count": 2
+    }
+}

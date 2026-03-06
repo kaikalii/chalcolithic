@@ -1,0 +1,29 @@
+{
+    "parent": "chalc:adventure/power_pot",
+    "criteria": {
+        "killed_skeleton_with_deflected": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "#skeletons"
+                },
+                "killing_blow": {
+                    "direct_entity": {
+                        "nbt": {
+                            "Tags": [
+                                "deflected"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "No Bone Zone",
+        "description": "Kill a skeleton with a howl-deflected arrow",
+        "icon": {
+            "id": "howl_pottery_sherd"
+        }
+    }
+}

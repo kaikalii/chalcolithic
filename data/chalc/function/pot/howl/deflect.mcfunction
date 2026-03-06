@@ -1,4 +1,4 @@
-execute if score #age chalc matches ..8 unless entity @a[distance=..2] run return 0
+execute if score #age chalc matches ..8 positioned ~ ~-1 ~ unless entity @a[distance=..2] run return 0
 
 execute store result score #temp chalc run data get entity @s Motion[0] 1000
 scoreboard players set #mx chalc 0
@@ -25,7 +25,10 @@ scoreboard players set #rot chalc 0
 scoreboard players operation #rot chalc -= #temp chalc
 execute store result entity @s Rotation[1] float 0.001 run scoreboard players get #rot chalc
 
+
 playsound entity.wolf_big.ambient block @a ~ ~ ~ 1 2 0.2
 particle gust ~ ~ ~ 0 0 0 0 1
 
+# Make player the owner
+data modify entity @s Owner set from entity @p UUID
 tag @s add deflected

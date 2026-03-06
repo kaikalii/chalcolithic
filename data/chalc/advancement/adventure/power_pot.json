@@ -1,0 +1,15 @@
+{
+    "parent": "adventure/salvage_sherd",
+    "criteria": {
+        "manual": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "title": "Iron Ignited Images",
+        "description": "Power a decorated pot",
+        "icon": {
+            "id": "raw_iron_block"
+        }
+    }
+}

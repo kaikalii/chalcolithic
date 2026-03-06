@@ -1,1 +1,1 @@
-function chalc:pot/plenty/try_distribute
+execute if data entity @s data.plenty run function chalc:pot/plenty/try_distribute

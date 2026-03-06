@@ -2,6 +2,9 @@
     "values": [
         "chest",
         "trapped_chest",
-        "barrel"
+        "barrel",
+        "#chalc:furnace",
+        "decorated_pot",
+        "brewing_stand"
     ]
 }

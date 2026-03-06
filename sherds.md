@@ -17,7 +17,7 @@
 | Friend     | Trail Ruins      |                                       | 1     |                         | Village          |
 | Heart      | Trail Ruins      | AoE Regeneration on players           | 8     | Strength                |                  |
 | Heartbreak | Trail Ruins      |                                       | 1     |                         | Cold Ocean Ruins |
-| Howl       | Trail Ruins      | *Empower wolves and deflect arrows*   | 1     |                         |                  |
+| Howl       | Trail Ruins      | Empower wolves and deflect arrows     | 1     |                         |                  |
 | Sheaf      | Trail Ruins      | Plant or grow nearby plants           | 4     | Range and Frequency     | Warm Ocean Ruins |
 | Flow       | Trial Chambers   | Spawn water                           | 1     | None                    |                  |
 | Guster     | Trial Chambers   |                                       | 1     |                         |                  |

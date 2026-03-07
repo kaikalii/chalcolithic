@@ -18,3 +18,5 @@ function chalc:pot/sherd/scrape
 function chalc:pot/sherd/sheaf
 function chalc:pot/sherd/skull
 function chalc:pot/sherd/snort
+
+setblock ~ ~1 ~ air destroy

@@ -26,4 +26,4 @@
 
 1) More common for players that have never found one
 2) Speed at which the sherd burns fuel. A pot with a single sherd of cost 1 burns for a whole minecraft day/night cycle. A cost of 2 burns for half the time. Costs of multiple sherds are additive.
-3) Distributes fuel from the contain below to nearby pots, furnaces, brewing stands, and imbuing altars. Imbuing altars must have an extra gold block below the lapis to be refueled
+3) Distributes fuel from the container below to nearby pots, furnaces, brewing stands, and imbuing altars. Imbuing altars must have an extra gold block below the lapis to be refueled

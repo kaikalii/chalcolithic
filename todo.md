@@ -11,6 +11,5 @@
   - Make shelter build on fuel consumption instead of break
 - Make portals easier to make
 - Enforce enchantment restrictions
-- Make fueled pots break blocks
 - Make villagers trade catalysts instead of books
 - Fix barrel open mechanics

@@ -10,8 +10,9 @@
     "chestplate"
     "leggings"
     "boots"}
-   ⍚$"diamond\__"
-  )
+   {"iron""diamond"}
+   ♭⊞⍚$"_\__"
+   ?)
 
   # Ingot smelting
   (SmeltingOre ← ⊃(
@@ -166,13 +167,13 @@ MatTags   ← ⊞⍚⊂ Mats {"1mat" "2mat" "3mat"}
 MatGroups ← ⊞◇(⍚⌞$"_\__") Mats {{"shovel" "spear"} {"hoe" "sword"} {"pickaxe" "axe"}}
 MatTags MatGroups
 ≡≡(&fwa ⊓$"data/chalc/tags/item/_.json"(
-    /◇⊂₃",\n        "⍚$"\"_\""
-    $$ {
-    $$     "values": [
-    $$         _
-    $$     ]
-    $$ }
-  ))
+  /◇⊂₃",\n        "⍚$"\"_\""
+  $$ {
+  $$     "values": [
+  $$         _
+  $$     ]
+  $$ }
+))
 
 {
   [

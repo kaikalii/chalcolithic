@@ -13,3 +13,6 @@
 - Enforce enchantment restrictions
 - Make villagers trade catalysts instead of books
 - Fix barrel open mechanics
+- Make pigs do something
+- Let sheaf and scrape farm trees
+- Break crying obsidian
